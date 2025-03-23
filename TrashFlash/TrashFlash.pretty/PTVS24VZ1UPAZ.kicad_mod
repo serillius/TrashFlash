@@ -1,0 +1,233 @@
+(footprint "PTVS24VZ1UPAZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN2020-3 (SOT1061-3)")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "Q**"
+		(at 0 -0.012 0)
+		(layer "F.SilkS")
+		(uuid "3a9d4f17-5c7a-4c07-8bc4-c9af7b32fc04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PTVS24VZ1UPAZ"
+		(at 0 -0.012 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ed461a1-e7e9-467d-a70f-78d7dd421f99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1 1.788 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdcc574e-7b59-4f77-9c1d-5071ed065b80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1 1.788 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a453310-ff2e-4dc9-a654-07c264c2012a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 1.5)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5800f597-d4e0-42b0-ba67-3f596b6b1a9e")
+	)
+	(fp_line
+		(start -0.7 1.6)
+		(end -0.7 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "925293de-78ab-40be-8418-8346afe806cb")
+	)
+	(fp_arc
+		(start -0.7 1.5)
+		(mid -0.65 1.55)
+		(end -0.7 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6558b537-5c8a-477c-8c38-b98d1df72df6")
+	)
+	(fp_arc
+		(start -0.7 1.6)
+		(mid -0.75 1.55)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5e5b10a-32d0-40ac-b26f-4c3c4ef0ca40")
+	)
+	(fp_line
+		(start -2 -2.087)
+		(end 2 -2.087)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdf63dc7-57b3-4ebe-8845-0241918bf824")
+	)
+	(fp_line
+		(start -2 2.063)
+		(end -2 -2.087)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac3e4684-61f4-4737-a668-8c56a755aa8c")
+	)
+	(fp_line
+		(start 2 -2.087)
+		(end 2 2.063)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d100b055-4f8d-44de-a04e-c8230ebac94e")
+	)
+	(fp_line
+		(start 2 2.063)
+		(end -2 2.063)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d22ce8d8-4860-42ec-85dc-227137ae6ade")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "245e774a-9089-4b2f-a0cd-6900fe6ca4aa")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e519f55-6dfe-4081-82f0-0964405f5871")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52a6062c-b238-4ec6-979b-a91bc29d315d")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb4ecfd5-d9cb-4f4c-80b4-7587f732b92d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.012 0)
+		(layer "F.Fab")
+		(uuid "34d8ed0f-89ea-4ee2-a933-5b1e3a555d2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.813)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4b52ab0e-6b94-4559-ba85-7c4e8fe1a478")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.813)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1463233d-0a2d-49a7-ae9b-d04c2259f57e")
+	)
+	(pad "3" smd custom
+		(at 0 -0.288)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.8 0.55) (xy -0.8 0) (xy -0.8 -0.55) (xy -0.2 -0.55) (xy -0.2 -0.8) (xy 0.2 -0.8) (xy 0.2 -0.55)
+					(xy 0.8 -0.55) (xy 0.8 0.55)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4c36b6c8-c84b-48ea-8c5e-c6a53a6252e5")
+	)
+	(embedded_fonts no)
+	(model "BC56-10PA,115.stp"
+		(offset
+			(xyz 0.8600000014 1.509999968 1.129999978)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -180)
+		)
+	)
+)
