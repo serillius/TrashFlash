@@ -407,6 +407,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "256082dc-9c82-41ae-bfb7-0b4bd4121c78",
+      "Root"
+    ],
+    [
+      "b540a372-b28b-49dd-801f-e36c7fece9b9",
+      "LED_Current_Source"
+    ],
+    [
+      "20812885-5a6f-4708-82f0-e6ad3403d690",
+      "LED_Supply"
+    ]
+  ],
   "text_variables": {}
 }
