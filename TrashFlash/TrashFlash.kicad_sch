@@ -4,323 +4,7 @@
 	(generator_version "9.0")
 	(uuid "256082dc-9c82-41ae-bfb7-0b4bd4121c78")
 	(paper "A4")
-	(lib_symbols
-		(symbol "TrashFlash:MCP4151-103E_MF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at -9.906 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MCP4151-103E_MF"
-				(at -9.906 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SON65P300X300X100-9N-D"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en532025"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MICROCHIP - MCP4151-103E/MF - Volatile Digital Potentiometer, 10 kohm, Single, SPI, Linear, +/- 20%, 1.8 V"
-				(at 0 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "579-MCP4151-103E/MF"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4151-103E-MF?qs=hH%252BOa0VZEiAEhpz3QwbADQ%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Microchip"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MCP4151-103E/MF"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MCP4151-103E_MF_1_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "SDI/SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP4151-103E_MF_2_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(wire
 		(pts
 			(xy 215.9 62.23) (xy 237.49 62.23)
@@ -330,290 +14,6 @@
 			(type default)
 		)
 		(uuid "8bf67dfa-1f2b-4174-876d-28077e2fc542")
-	)
-	(symbol
-		(lib_id "TrashFlash:MCP4151-103E_MF")
-		(at 90.17 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7db1d40b-3f1c-4cef-adb3-43b0e0d9085d")
-		(property "Reference" "IC4"
-			(at 90.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP4151-103E_MF"
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SON65P300X300X100-9N-D"
-			(at 116.84 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en532025"
-			(at 116.84 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MICROCHIP - MCP4151-103E/MF - Volatile Digital Potentiometer, 10 kohm, Single, SPI, Linear, +/- 20%, 1.8 V"
-			(at 90.17 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 116.84 477.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "579-MCP4151-103E/MF"
-			(at 116.84 577.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4151-103E-MF?qs=hH%252BOa0VZEiAEhpz3QwbADQ%3D%3D"
-			(at 116.84 677.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 116.84 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCP4151-103E/MF"
-			(at 116.84 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e2ba78e-ec57-45d1-8906-057046f0ea04")
-		)
-		(pin "2"
-			(uuid "57b5fb42-a7ff-4cf9-a19d-7672e2aebbad")
-		)
-		(pin "5"
-			(uuid "1b3f2633-8726-41dd-b840-11ed9b3af4b8")
-		)
-		(pin "6"
-			(uuid "b475cb76-c0f1-4282-8adb-7e31fd1c175e")
-		)
-		(pin "7"
-			(uuid "4418cba8-9958-491d-8a2e-24b11acdf347")
-		)
-		(pin "9"
-			(uuid "82b0e9c9-d8ba-49ac-b13c-479b627c8aa0")
-		)
-		(pin "4"
-			(uuid "36d59d68-f31c-48aa-a98a-247a6d94b532")
-		)
-		(pin "8"
-			(uuid "9eee5434-8335-43de-a1e7-b81b2732709c")
-		)
-		(pin "3"
-			(uuid "2bd671b0-28b4-45ef-9f8d-cb97df8c5064")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:MCP4151-103E_MF")
-		(at 90.17 109.22 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec54ea61-c62d-4fed-901c-3a096f037c80")
-		(property "Reference" "IC4"
-			(at 87.63 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCP4151-103E_MF"
-			(at 87.63 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SON65P300X300X100-9N-D"
-			(at 116.84 204.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en532025"
-			(at 116.84 304.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MICROCHIP - MCP4151-103E/MF - Volatile Digital Potentiometer, 10 kohm, Single, SPI, Linear, +/- 20%, 1.8 V"
-			(at 90.17 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 116.84 504.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "579-MCP4151-103E/MF"
-			(at 116.84 604.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4151-103E-MF?qs=hH%252BOa0VZEiAEhpz3QwbADQ%3D%3D"
-			(at 116.84 704.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 116.84 804.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCP4151-103E/MF"
-			(at 116.84 904.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e2ba78e-ec57-45d1-8906-057046f0ea05")
-		)
-		(pin "2"
-			(uuid "57b5fb42-a7ff-4cf9-a19d-7672e2aebbae")
-		)
-		(pin "5"
-			(uuid "1b3f2633-8726-41dd-b840-11ed9b3af4b9")
-		)
-		(pin "6"
-			(uuid "b475cb76-c0f1-4282-8adb-7e31fd1c175f")
-		)
-		(pin "7"
-			(uuid "4418cba8-9958-491d-8a2e-24b11acdf348")
-		)
-		(pin "9"
-			(uuid "82b0e9c9-d8ba-49ac-b13c-479b627c8aa1")
-		)
-		(pin "4"
-			(uuid "36d59d68-f31c-48aa-a98a-247a6d94b533")
-		)
-		(pin "8"
-			(uuid "9eee5434-8335-43de-a1e7-b81b2732709d")
-		)
-		(pin "3"
-			(uuid "2bd671b0-28b4-45ef-9f8d-cb97df8c5065")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
-					(reference "IC4")
-					(unit 2)
-				)
-			)
-		)
 	)
 	(sheet
 		(at 187.96 57.15)
@@ -669,36 +69,6 @@
 				(justify left)
 			)
 		)
-		(pin "POTY_CS" input
-			(at 187.96 104.14 180)
-			(uuid "a2d5e46c-a9cf-4122-b54a-1c4e37ca40ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "POTY_SCK" input
-			(at 187.96 107.95 180)
-			(uuid "efc57a76-d78c-4663-aef7-dfd3e558f35c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "POTY_SDI{slash}SDO" input
-			(at 187.96 111.76 180)
-			(uuid "5fd152ad-09cb-4fd2-8bdf-ae5881b52afb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "V_BAT" input
 			(at 187.96 62.23 180)
 			(uuid "7c702676-27c8-4892-a41a-9c5bfb7e1b5a")
@@ -719,10 +89,104 @@
 				(justify right)
 			)
 		)
+		(pin "V_VOLTAGE_SET" input
+			(at 187.96 76.2 180)
+			(uuid "199bf022-c898-4ad2-b302-c2c103f39c1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 72.39)
+		(size 31.75 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "595e1b8f-f241-4d24-ad57-f9d3d2282090")
+		(property "Sheetname" "MCU"
+			(at 58.42 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 58.42 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 27.94)
+		(size 29.21 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80bea837-454b-4907-9606-e09ea92f0071")
+		(property "Sheetname" "Supply"
+			(at 101.6 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Supply.kicad_sch"
+			(at 101.6 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
+					(page "5")
 				)
 			)
 		)
