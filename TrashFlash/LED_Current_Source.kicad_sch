@@ -2010,6 +2010,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "AD8615!\n"
+		(exclude_from_sim no)
+		(at 184.15 85.852 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8ec69ed7-c617-4f07-8fa0-16f9eaa7765f")
+	)
 	(junction
 		(at 233.68 100.33)
 		(diameter 0)
