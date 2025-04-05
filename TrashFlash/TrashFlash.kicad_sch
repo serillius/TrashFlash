@@ -253,6 +253,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 121.92 124.46)
+		(size 33.02 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa02bcf9-bdc6-4000-b431-14bacede6ea5")
+		(property "Sheetname" "User_Interface"
+			(at 121.92 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User_Interface.kicad_sch"
+			(at 121.92 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
