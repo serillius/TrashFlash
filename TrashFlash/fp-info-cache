@@ -1,4 +1,4 @@
-24747919475033549
+24756527831158857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98749,12 +98749,47 @@ Transistor BJT NPN
 3
 3
 TrashFlash
+QFN40P400X400X100-33N-D
+RSM0032B VQFN
+Integrated Circuit
+0
+33
+33
+TrashFlash
 QFN50P300X500X80-25N-D
 24-Lead Plastic QFN (3mm × 5mm)
 Integrated Circuit
 0
 25
 25
+TrashFlash
+SI5448DUT1GE3
+PowerPak ChipFet Single
+Undefined or Miscellaneous
+0
+4
+3
+TrashFlash
+SN74LXC2T45QDTTRQ1
+SN74LXC2T45QDTTRQ1-3
+Integrated Circuit
+0
+8
+8
+TrashFlash
+SON50P300X200X80-9N-D
+CP-8-4 (LFCSP_WD)
+Integrated Circuit
+0
+9
+9
+TrashFlash
+SON65P200X200X80-7N
+6-WSON (2x2)
+Integrated Circuit
+0
+7
+7
 TrashFlash
 SON65P300X300X100-9N-D
 8-Lead Plastic Dual Flat, No Lead Package (MF) – 3x3x0.9 mm Body [DFN]
