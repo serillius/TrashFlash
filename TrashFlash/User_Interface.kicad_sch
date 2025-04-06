@@ -3471,71 +3471,38 @@
 		)
 		(uuid "fec1e15b-4199-4085-a467-d64a1d76d320")
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 76.2 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5da09458-3924-4065-88ee-208479617ad6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.5354 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN_RGB_LED_DRIVER"
-		(shape input)
-		(at 76.2 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8c0dfb1-b9d6-4824-867a-2b12a0979192")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.923 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 76.2 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "eb7f614b-2b76-4d4d-a7f0-5153c945c813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.7072 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "691c8586-4dd3-424d-aeda-e2b1c1d3d940")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 76.2 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "92bad2d7-5dd4-484d-a989-a366d2bf3387")
+	)
+	(hierarchical_label "EN_RGB_LED_DRIVER"
+		(shape input)
+		(at 76.2 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98501a61-7bed-4c57-9197-8aa40f83d1cc")
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")

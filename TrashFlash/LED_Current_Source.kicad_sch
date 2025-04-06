@@ -268,6 +268,262 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TrashFlash:AD8615AUJZ-REEL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -5.588 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AD8615AUJZ-REEL"
+				(at -5.588 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P280X100-5N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ANALOG DEVICES - AD8615AUJZ-REEL - Operational Amplifier, Single, 1 Amplifier, 24 MHz, 12 V/s, 2.7V to 5V, TSOT-23, 5 Pins"
+				(at -1.27 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "584-AD8615AUJZ-R"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AD8615AUJZ-REEL"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AD8615AUJZ-REEL_1_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AD8615AUJZ-REEL_2_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TrashFlash:ADG5419BCPZ-RL7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -870,262 +1126,6 @@
 					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TrashFlash:OPA191IDBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 1.778 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "OPA191IDBVR"
-				(at 1.778 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 3.048 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Amplifiers Low-Power, Precision, 36-V, e-trim CMOS Amplifier 5-SOT-23 -40 to 125"
-				(at 0.254 12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-OPA191IDBVR"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA191IDBVR?qs=f4l5qYp%2Fy%252B4UGreyV%252Beruw%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "OPA191IDBVR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "OPA191IDBVR_1_1"
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA191IDBVR_2_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -8.89 0 0)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 0 0)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 0 180)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 0 180)
-					(length 3.81)
-					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,18 +2009,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "AD8615!\n"
-		(exclude_from_sim no)
-		(at 184.15 85.852 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8ec69ed7-c617-4f07-8fa0-16f9eaa7765f")
 	)
 	(junction
 		(at 233.68 100.33)
@@ -3342,7 +3330,7 @@
 		)
 		(uuid "ad5712fd-b2e5-48dd-a860-62b300ec0c6d")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "VDD"
 		(shape input)
 		(at 127 185.42 180)
 		(effects
@@ -3620,140 +3608,6 @@
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
 					(reference "#PWR05")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:OPA191IDBVR")
-		(at 190.5 228.6 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "286e7393-87aa-4a8e-a36c-ef250035b1c7")
-		(property "Reference" "IC3"
-			(at 190.5 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA191IDBVR"
-			(at 190.5 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 193.548 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 423.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Amplifiers Low-Power, Precision, 36-V, e-trim CMOS Amplifier 5-SOT-23 -40 to 125"
-			(at 190.754 216.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 212.09 623.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-OPA191IDBVR"
-			(at 212.09 723.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA191IDBVR?qs=f4l5qYp%2Fy%252B4UGreyV%252Beruw%3D%3D"
-			(at 212.09 823.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 212.09 923.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "OPA191IDBVR"
-			(at 212.09 1023.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee6fc3a1-638c-44c4-8544-2351eec805ea")
-		)
-		(pin "5"
-			(uuid "3f041969-3bc2-458a-8cb5-6a169c2f9dc5")
-		)
-		(pin "5"
-			(uuid "4eefe594-3360-42f3-bb04-281967553031")
-		)
-		(pin "1"
-			(uuid "af14b2ca-b99b-4cb3-8534-1372313e9264")
-		)
-		(pin "4"
-			(uuid "a5abda86-bfdf-4e26-ade2-9a57e1b53e72")
-		)
-		(pin "3"
-			(uuid "c01a2e96-372b-4806-90b4-31d7b4bcedc2")
-		)
-		(pin "2"
-			(uuid "a2ad16ef-e261-4333-949c-9ccdd9909613")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
-					(reference "IC3")
-					(unit 2)
 				)
 			)
 		)
@@ -4173,6 +4027,141 @@
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
 					(reference "IC2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:AD8615AUJZ-REEL")
+		(at 190.5 228.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c37d3d-5e07-41f6-8655-815412bb4e45")
+		(property "Reference" "IC8"
+			(at 190.5 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8615AUJZ-REEL"
+			(at 190.5 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X100-5N"
+			(at 212.09 323.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+			(at 212.09 423.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ANALOG DEVICES - AD8615AUJZ-REEL - Operational Amplifier, Single, 1 Amplifier, 24 MHz, 12 V/s, 2.7V to 5V, TSOT-23, 5 Pins"
+			(at 189.23 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 212.09 623.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-AD8615AUJZ-R"
+			(at 212.09 723.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+			(at 212.09 823.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 212.09 923.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AD8615AUJZ-REEL"
+			(at 212.09 1023.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36dbf4ea-9613-4463-8137-ddb2404db54d")
+		)
+		(pin "3"
+			(uuid "b6e2bc1d-fde1-436d-8401-b5d923d0e337")
+		)
+		(pin "1"
+			(uuid "4cdff74f-529d-4d3f-a49e-061f77f3f635")
+		)
+		(pin "5"
+			(uuid "e20ee037-6e8f-42ec-84c7-6b8745eb0589")
+		)
+		(pin "5"
+			(uuid "77c6d5a6-c94a-446a-8cb0-d0fc8dc52ba9")
+		)
+		(pin "4"
+			(uuid "50c93393-9c64-4d0d-9e43-5bfd810582b8")
+		)
+		(pin "2"
+			(uuid "f8662be2-e6a1-4a98-b0a1-69eefe498ac8")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
+					(reference "IC8")
+					(unit 2)
 				)
 			)
 		)
@@ -5104,6 +5093,141 @@
 		)
 	)
 	(symbol
+		(lib_id "TrashFlash:AD8615AUJZ-REEL")
+		(at 187.96 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bba47c3-db91-44ae-9af2-c0d0a8f8a955")
+		(property "Reference" "IC8"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8615AUJZ-REEL"
+			(at 190.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X100-5N"
+			(at 209.55 195.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf"
+			(at 209.55 295.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ANALOG DEVICES - AD8615AUJZ-REEL - Operational Amplifier, Single, 1 Amplifier, 24 MHz, 12 V/s, 2.7V to 5V, TSOT-23, 5 Pins"
+			(at 186.69 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 209.55 495.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-AD8615AUJZ-R"
+			(at 209.55 595.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8615AUJZ-REEL?qs=%2FtpEQrCGXCx4ykDkhiJmqw%3D%3D"
+			(at 209.55 695.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 209.55 795.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AD8615AUJZ-REEL"
+			(at 209.55 895.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36dbf4ea-9613-4463-8137-ddb2404db54d")
+		)
+		(pin "3"
+			(uuid "b6e2bc1d-fde1-436d-8401-b5d923d0e337")
+		)
+		(pin "1"
+			(uuid "4cdff74f-529d-4d3f-a49e-061f77f3f635")
+		)
+		(pin "5"
+			(uuid "e20ee037-6e8f-42ec-84c7-6b8745eb0589")
+		)
+		(pin "5"
+			(uuid "77c6d5a6-c94a-446a-8cb0-d0fc8dc52ba9")
+		)
+		(pin "4"
+			(uuid "50c93393-9c64-4d0d-9e43-5bfd810582b8")
+		)
+		(pin "2"
+			(uuid "f8662be2-e6a1-4a98-b0a1-69eefe498ac8")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 203.2 0)
 		(unit 1)
@@ -5237,141 +5361,6 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:OPA191IDBVR")
-		(at 189.23 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c50faa6-974a-489a-bbdf-65de2cc51ce0")
-		(property "Reference" "IC3"
-			(at 190.5 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA191IDBVR"
-			(at 190.5 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 192.278 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 295.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Amplifiers Low-Power, Precision, 36-V, e-trim CMOS Amplifier 5-SOT-23 -40 to 125"
-			(at 189.484 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 210.82 495.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-OPA191IDBVR"
-			(at 210.82 595.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA191IDBVR?qs=f4l5qYp%2Fy%252B4UGreyV%252Beruw%3D%3D"
-			(at 210.82 695.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 210.82 795.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "OPA191IDBVR"
-			(at 210.82 895.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a59e7ede-73ec-45d6-8294-2a16ed1cfadc")
-		)
-		(pin "5"
-			(uuid "75ee8ec6-f184-494c-a403-82a0f382a120")
-		)
-		(pin "5"
-			(uuid "90ea7eae-1a87-4621-a89b-0bdc778c0f10")
-		)
-		(pin "1"
-			(uuid "50ff0a88-cc5c-403a-913c-cc027dcf050e")
-		)
-		(pin "4"
-			(uuid "8dae5cdd-9447-44cf-ac7e-475129d9895b")
-		)
-		(pin "3"
-			(uuid "a73b3dec-211d-4149-bdcf-d4c681bf2385")
-		)
-		(pin "2"
-			(uuid "f01017f6-7817-48cc-9ec1-0c22d88a08d1")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
-					(reference "IC3")
 					(unit 1)
 				)
 			)

@@ -225,7 +225,7 @@
 		(at 0 0)
 		(size 1.6 2.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.07)
 		(uuid "0b17aee6-97c0-46fc-9c77-f3eb1959d5db")
 	)
 	(embedded_fonts no)

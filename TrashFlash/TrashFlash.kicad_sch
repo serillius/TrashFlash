@@ -108,7 +108,49 @@
 		)
 	)
 	(sheet
-		(at 58.42 72.39)
+		(at 50.8 152.4)
+		(size 53.34 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48bd9eb3-181e-486e-b35f-78f4f2bdb3e3")
+		(property "Sheetname" "Battery_Management"
+			(at 50.8 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Management.kicad_sch"
+			(at 50.8 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 31.75)
 		(size 31.75 72.39)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -124,7 +166,7 @@
 		)
 		(uuid "595e1b8f-f241-4d24-ad57-f9d3d2282090")
 		(property "Sheetname" "MCU"
-			(at 58.42 71.6784 0)
+			(at 34.29 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +175,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 58.42 145.3646 0)
+			(at 34.29 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

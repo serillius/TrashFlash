@@ -2711,7 +2711,7 @@
 		(uuid "6b97654a-be1e-4d08-896a-0a8030296dcf")
 	)
 	(hierarchical_label "V_LED"
-		(shape input)
+		(shape output)
 		(at 222.25 63.5 0)
 		(effects
 			(font

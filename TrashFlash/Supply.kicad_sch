@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TrashFlash:74438323100"
+		(symbol "TrashFlash:74438343022"
 			(pin_names
 				(hide yes)
 			)
@@ -276,7 +276,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 3.81 6.35 0)
+				(at 6.35 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,8 +284,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "74438323100"
-				(at 3.81 3.81 0)
+			(property "Value" "74438343022"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -293,7 +293,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "INDC2520X100N"
+			(property "Footprint" "INDM2016X100N"
 				(at 16.51 -96.19 0)
 				(effects
 					(font
@@ -303,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438323100.pdf"
+			(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438343022.pdf"
 				(at 16.51 -196.19 0)
 				(effects
 					(font
@@ -313,8 +313,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2510, 10uH"
-				(at 10.16 -2.54 0)
+			(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2010, 2.2uH"
+				(at 0.254 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -332,7 +332,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "710-74438323100"
+			(property "Mouser Part Number" "710-74438343022"
 				(at 16.51 -496.19 0)
 				(effects
 					(font
@@ -342,7 +342,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438323100?qs=ZB8tH5z5N7bLXoftfP5XYw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438343022?qs=iC14BvcgY%2F123ryA6Z6D7g%3D%3D"
 				(at 16.51 -596.19 0)
 				(effects
 					(font
@@ -362,7 +362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "74438323100"
+			(property "Manufacturer_Part_Number" "74438343022"
 				(at 16.51 -796.19 0)
 				(effects
 					(font
@@ -372,11 +372,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "74438323100_1_1"
+			(symbol "74438343022_1_1"
 				(arc
-					(start 5.08 0)
-					(mid 6.35 1.219)
-					(end 7.62 0)
+					(start -5.08 0)
+					(mid -3.81 1.219)
+					(end -2.54 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -386,9 +386,9 @@
 					)
 				)
 				(arc
-					(start 7.62 0)
-					(mid 8.89 1.219)
-					(end 10.16 0)
+					(start -2.54 0)
+					(mid -1.27 1.219)
+					(end 0 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -398,9 +398,9 @@
 					)
 				)
 				(arc
-					(start 10.16 0)
-					(mid 11.43 1.219)
-					(end 12.7 0)
+					(start 0 0)
+					(mid 1.27 1.219)
+					(end 2.54 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -410,9 +410,9 @@
 					)
 				)
 				(arc
-					(start 12.7 0)
-					(mid 13.97 1.219)
-					(end 15.24 0)
+					(start 2.54 0)
+					(mid 3.81 1.219)
+					(end 5.08 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -422,7 +422,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -440,7 +440,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
+					(at 10.16 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1811,115 +1811,60 @@
 		)
 		(uuid "fdef18af-235e-4931-8d54-70a254a85cd5")
 	)
-	(global_label "REG_5V_EN"
-		(shape input)
-		(at 50.8 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64943149-c777-4e5b-9f1b-6525e97568f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.413 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape output)
-		(at 254 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90c8db21-30ad-4786-a5d3-176f1ee0df1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.2833 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSYS"
-		(shape input)
-		(at 50.8 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5111cff-957a-4037-9891-ab74311e0b14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2186 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD"
+	(hierarchical_label "VDD"
 		(shape output)
 		(at 254 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c6ec9d73-c48e-44c8-ba17-803f8cce418e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.6138 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "09728003-89b0-4a9c-8230-a7ff2b877e52")
 	)
-	(global_label "SEL_VDD"
+	(hierarchical_label "VSYS"
 		(shape input)
-		(at 50.8 57.15 180)
-		(fields_autoplaced yes)
+		(at 50.8 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d446131c-ab45-4544-be8b-25df46379e44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.832 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "11113111-159a-4b7e-9f7f-a2ac835079fd")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 254 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "736e7b25-8c99-42de-a38b-0f2791ea0f4d")
+	)
+	(hierarchical_label "SEL_VDD"
+		(shape input)
+		(at 50.8 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ea4fbc7-c74f-422e-88e2-760d34d92a8b")
+	)
+	(hierarchical_label "EN_REG_5V"
+		(shape input)
+		(at 50.8 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "998a4ed7-e53c-4b63-8830-4448fa4ed3c4")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1982,6 +1927,126 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:74438343022")
+		(at 146.05 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11daacbf-b10b-45c8-869f-c826e2674358")
+		(property "Reference" "L5"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74438343022"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INDM2016X100N"
+			(at 162.56 193.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438343022.pdf"
+			(at 162.56 293.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2010, 2.2uH"
+			(at 146.304 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 162.56 493.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-74438343022"
+			(at 162.56 593.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438343022?qs=iC14BvcgY%2F123ryA6Z6D7g%3D%3D"
+			(at 162.56 693.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 162.56 793.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74438343022"
+			(at 162.56 893.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a819c103-be26-4a3f-98e8-3cfdc6e7a386")
+		)
+		(pin "2"
+			(uuid "a9514b7f-e77a-42ea-8be3-4f8a93fb6c87")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -2884,126 +2949,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TrashFlash:74438323100")
-		(at 135.89 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9672e702-dc36-4726-9ac0-f18784b17f05")
-		(property "Reference" "L3"
-			(at 146.05 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74438323100"
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDC2520X100N"
-			(at 152.4 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438323100.pdf"
-			(at 152.4 293.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2510, 10uH"
-			(at 146.05 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 152.4 493.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-74438323100"
-			(at 152.4 593.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438323100?qs=ZB8tH5z5N7bLXoftfP5XYw%3D%3D"
-			(at 152.4 693.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 152.4 793.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438323100"
-			(at 152.4 893.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e09a576-06de-4f97-b4a7-108667a44f1a")
-		)
-		(pin "2"
-			(uuid "4e2e89ca-0ee9-4d9c-ab45-649e3bdfb508")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 147.32 0)
 		(unit 1)
@@ -3064,126 +3009,6 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:74438323100")
-		(at 135.89 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ed0eef4-c45b-426b-ac7d-eb699391c4ad")
-		(property "Reference" "L2"
-			(at 146.05 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74438323100"
-			(at 146.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "INDC2520X100N"
-			(at 152.4 124.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438323100.pdf"
-			(at 152.4 224.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2510, 10uH"
-			(at 146.05 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 152.4 424.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-74438323100"
-			(at 152.4 524.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438323100?qs=ZB8tH5z5N7bLXoftfP5XYw%3D%3D"
-			(at 152.4 624.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 152.4 724.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "74438323100"
-			(at 152.4 824.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78c10c04-6ced-41fd-8ed9-27854dcd7b1e")
-		)
-		(pin "2"
-			(uuid "d2c4429d-3244-4a3e-ae77-eda8fea51e31")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3394,6 +3219,126 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:74438343022")
+		(at 146.05 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a86aff-d1a5-47c2-94f2-d91509118b70")
+		(property "Reference" "L4"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74438343022"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INDM2016X100N"
+			(at 162.56 124.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/pbs/datasheet/74438343022.pdf"
+			(at 162.56 224.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-MAPI SMD Shielded Power Inductor, 2010, 2.2uH"
+			(at 146.304 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 162.56 424.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-74438343022"
+			(at 162.56 524.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/74438343022?qs=iC14BvcgY%2F123ryA6Z6D7g%3D%3D"
+			(at 162.56 624.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 162.56 724.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74438343022"
+			(at 162.56 824.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34dfb9c4-77b8-4599-8ff2-c5c89fc9c4c8")
+		)
+		(pin "2"
+			(uuid "51f41161-f051-414e-9091-7d438e7d97a6")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
+					(reference "L4")
 					(unit 1)
 				)
 			)

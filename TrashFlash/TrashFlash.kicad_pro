@@ -431,6 +431,10 @@
     [
       "fa02bcf9-bdc6-4000-b431-14bacede6ea5",
       "User_Interface"
+    ],
+    [
+      "48bd9eb3-181e-486e-b35f-78f4f2bdb3e3",
+      "Battery_Management"
     ]
   ],
   "text_variables": {}
