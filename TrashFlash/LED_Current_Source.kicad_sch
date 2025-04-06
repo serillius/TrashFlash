@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI5448DUT1GE3"
+		(property "Footprint" "TrashFlash:SI5448DUT1GE3"
 			(at 285.75 235.89 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.6252 208.28 0)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.06 112.268 90)
 			(effects
 				(font
@@ -4212,7 +4212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.5948 243.84 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P300X200X80-9N-D"
+		(property "Footprint" "TrashFlash:SON50P300X200X80-9N-D"
 			(at 226.314 145.796 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X100-5N"
+		(property "Footprint" "TrashFlash:SOT95P280X100-5N"
 			(at 209.55 334.95 0)
 			(effects
 				(font
@@ -4759,7 +4759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 213.0552 208.28 0)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTVS24VZ1UPAZ"
+		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
 			(at 262.636 96.774 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.6252 152.4 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.638 148.59 90)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 137.16 83.058 90)
 			(effects
 				(font
@@ -5352,7 +5352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 253.238 148.59 90)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.038 118.11 90)
 			(effects
 				(font
@@ -5556,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTVS24VZ1UPAZ"
+		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
 			(at 313.436 96.774 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X100-5N"
+		(property "Footprint" "TrashFlash:SOT95P280X100-5N"
 			(at 207.01 178.74 0)
 			(effects
 				(font
@@ -5759,25 +5759,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "36dbf4ea-9613-4463-8137-ddb2404db54d")
+			(uuid "36dbf4ea-9613-4463-8137-ddb2404db54e")
 		)
 		(pin "3"
-			(uuid "b6e2bc1d-fde1-436d-8401-b5d923d0e337")
+			(uuid "b6e2bc1d-fde1-436d-8401-b5d923d0e338")
 		)
 		(pin "1"
-			(uuid "4cdff74f-529d-4d3f-a49e-061f77f3f635")
+			(uuid "4cdff74f-529d-4d3f-a49e-061f77f3f636")
 		)
 		(pin "5"
-			(uuid "e20ee037-6e8f-42ec-84c7-6b8745eb0589")
+			(uuid "e20ee037-6e8f-42ec-84c7-6b8745eb058a")
 		)
 		(pin "5"
-			(uuid "77c6d5a6-c94a-446a-8cb0-d0fc8dc52ba9")
+			(uuid "77c6d5a6-c94a-446a-8cb0-d0fc8dc52baa")
 		)
 		(pin "4"
-			(uuid "50c93393-9c64-4d0d-9e43-5bfd810582b8")
+			(uuid "50c93393-9c64-4d0d-9e43-5bfd810582b9")
 		)
 		(pin "2"
-			(uuid "f8662be2-e6a1-4a98-b0a1-69eefe498ac8")
+			(uuid "f8662be2-e6a1-4a98-b0a1-69eefe498ac9")
 		)
 		(instances
 			(project ""
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SN74LXC2T45QDTTRQ1"
+		(property "Footprint" "TrashFlash:SN74LXC2T45QDTTRQ1"
 			(at 251.46 273.99 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.382 118.11 90)
 			(effects
 				(font
@@ -6365,7 +6365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.6252 100.33 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.0248 243.84 0)
 			(effects
 				(font
@@ -6848,7 +6848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTVS24VZ1UPAZ"
+		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
 			(at 237.236 96.774 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PTVS24VZ1UPAZ"
+		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
 			(at 288.036 96.774 0)
 			(effects
 				(font
@@ -7163,7 +7163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 287.782 118.11 90)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.8948 92.71 0)
 			(effects
 				(font
@@ -7367,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI5448DUT1GE3"
+		(property "Footprint" "TrashFlash:SI5448DUT1GE3"
 			(at 311.15 235.89 0)
 			(effects
 				(font
@@ -7631,7 +7631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.338 96.52 90)
 			(effects
 				(font

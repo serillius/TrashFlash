@@ -3209,7 +3209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.258 92.71 90)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.258 68.58 90)
 			(effects
 				(font
@@ -3481,7 +3481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 129.54 0)
 			(effects
 				(font
@@ -3551,7 +3551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.8952 36.83 0)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 129.54 0)
 			(effects
 				(font
@@ -3757,7 +3757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.758 58.42 90)
 			(effects
 				(font
@@ -3893,7 +3893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.758 48.26 90)
 			(effects
 				(font
@@ -4095,7 +4095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.4952 72.39 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.758 33.02 90)
 			(effects
 				(font
@@ -4299,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 85.852 90)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X500X80-25N-D"
+		(property "Footprint" "TrashFlash:QFN50P300X500X80-25N-D"
 			(at 113.284 170.434 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "INDPM5454X310N"
+		(property "Footprint" "TrashFlash:INDPM5454X310N"
 			(at 173.99 129.21 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X500X80-25N-D"
+		(property "Footprint" "TrashFlash:QFN50P300X500X80-25N-D"
 			(at 113.284 80.264 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.4952 129.54 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 52.07 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.758 68.58 90)
 			(effects
 				(font
@@ -5216,7 +5216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.258 135.89 90)
 			(effects
 				(font
