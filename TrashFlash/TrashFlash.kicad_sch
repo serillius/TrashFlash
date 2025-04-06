@@ -7,17 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 215.9 62.23) (xy 237.49 62.23)
+			(xy 215.9 27.94) (xy 228.6 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bf67dfa-1f2b-4174-876d-28077e2fc542")
+		(uuid "17603295-859e-43f7-803c-0fefe30cd50d")
 	)
 	(sheet
-		(at 187.96 57.15)
-		(size 27.94 60.96)
+		(at 187.96 25.4)
+		(size 27.94 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32,7 +32,7 @@
 		)
 		(uuid "20812885-5a6f-4708-82f0-e6ad3403d690")
 		(property "Sheetname" "LED_Supply"
-			(at 187.96 56.4384 0)
+			(at 187.96 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_Supply.kicad_sch"
-			(at 187.96 118.6946 0)
+			(at 187.96 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,8 +50,8 @@
 			)
 		)
 		(pin "CAPGD" input
-			(at 187.96 88.9 180)
-			(uuid "0ac7b74b-a965-4c32-811d-57197e8aa4aa")
+			(at 187.96 33.02 180)
+			(uuid "0d5a2dca-d6c1-43a1-99e2-6a5c527c493a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +60,8 @@
 			)
 		)
 		(pin "PFO" input
-			(at 187.96 92.71 180)
-			(uuid "ebe37a57-00a5-4d83-8202-b7be068eeed4")
+			(at 187.96 30.48 180)
+			(uuid "2d96db87-56fc-4782-bea8-6cb529ee3acf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,8 +70,8 @@
 			)
 		)
 		(pin "V_BAT" input
-			(at 187.96 62.23 180)
-			(uuid "7c702676-27c8-4892-a41a-9c5bfb7e1b5a")
+			(at 187.96 27.94 180)
+			(uuid "a3587c63-4d1c-47d4-aa88-3140f2d345c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,9 +79,9 @@
 				(justify left)
 			)
 		)
-		(pin "V_LED" input
-			(at 215.9 62.23 0)
-			(uuid "63a34d26-f805-49f2-a3cf-cc96ba1eb0b9")
+		(pin "V_LED" output
+			(at 215.9 27.94 0)
+			(uuid "463746a5-05eb-409d-8297-edad4994b541")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,8 +90,8 @@
 			)
 		)
 		(pin "V_VOLTAGE_SET" input
-			(at 187.96 76.2 180)
-			(uuid "199bf022-c898-4ad2-b302-c2c103f39c1e")
+			(at 187.96 35.56 180)
+			(uuid "0156c363-ba93-4b19-b131-75d853e5d1d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,6 +139,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BIN" output
+			(at 50.8 165.1 180)
+			(uuid "c99dc3d9-8ac7-4787-acda-f89c521cfe08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPOUT" output
+			(at 50.8 172.72 180)
+			(uuid "cda4b787-ea4b-4510-8552-2f6165676835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 50.8 161.29 180)
+			(uuid "288a81c6-8533-4b42-9ce0-916f4808fe4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 50.8 154.94 180)
+			(uuid "6935b2d4-8ca7-48cc-8f24-c885148db808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT+" input
+			(at 50.8 157.48 180)
+			(uuid "6763762c-3911-4f5d-a1aa-1fca1984f61e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT-" input
+			(at 50.8 166.37 180)
+			(uuid "b1ba2f9c-97dc-491b-ad53-20f88760f723")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSYS" output
+			(at 50.8 171.45 180)
+			(uuid "dd162a14-23ed-4265-ae5d-197f5a282ff6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VUSB" input
+			(at 50.8 168.91 180)
+			(uuid "fda204bf-9ac9-488b-8f57-10cad9ac68a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CHG}" output
+			(at 50.8 173.99 180)
+			(uuid "46d85e16-d74c-439a-b9fa-5810468fd92f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PGOOD}" output
+			(at 50.8 179.07 180)
+			(uuid "2011533f-db06-4a53-8419-dbc0a9722823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -225,6 +325,56 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" output
+			(at 101.6 35.56 180)
+			(uuid "91a3d575-d5a7-4fdf-a912-c3e0d50d0939")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_REG_5V" input
+			(at 101.6 43.18 180)
+			(uuid "a3c95f03-e5fd-4420-8f76-917616b9b0ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_VDD" input
+			(at 101.6 52.07 180)
+			(uuid "aba2d631-83cf-4054-adf0-18399cfc4206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" output
+			(at 101.6 57.15 180)
+			(uuid "d7f297c0-b748-45fc-a2bc-e033e7cd555d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSYS" input
+			(at 101.6 63.5 180)
+			(uuid "66d05edf-4d0f-4b10-be07-4636771620ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78"
@@ -234,8 +384,8 @@
 		)
 	)
 	(sheet
-		(at 237.49 43.18)
-		(size 26.67 74.93)
+		(at 228.6 25.4)
+		(size 26.67 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -250,7 +400,7 @@
 		)
 		(uuid "b540a372-b28b-49dd-801f-e36c7fece9b9")
 		(property "Sheetname" "LED_Current_Source"
-			(at 237.49 42.4684 0)
+			(at 228.6 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +409,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_Current_Source.kicad_sch"
-			(at 237.49 118.6946 0)
+			(at 228.6 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,9 +417,59 @@
 				(justify left top)
 			)
 		)
-		(pin "V_LED" input
-			(at 237.49 62.23 180)
-			(uuid "609ed700-e3bb-4574-8f10-bd4730f8231c")
+		(pin "5V" input
+			(at 228.6 71.12 180)
+			(uuid "91bb4e00-ea42-42f4-8234-c56d0fcfbd9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sense_1Ohm" input
+			(at 228.6 63.5 180)
+			(uuid "32a59bb4-81cb-4755-9962-483717dc258c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sense_10mOhm" input
+			(at 228.6 60.96 180)
+			(uuid "fb80f7ed-b654-4924-94da-59786a3a02b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW_EN" input
+			(at 228.6 54.61 180)
+			(uuid "68a2d936-eb4f-49d1-a410-db0cba011332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW_IN" input
+			(at 228.6 52.07 180)
+			(uuid "8b28dfdd-a79e-4293-b44e-3225647ce96d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 228.6 73.66 180)
+			(uuid "05c11572-1c2d-4e3e-89a0-4cab7437a527")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,8 +478,18 @@
 			)
 		)
 		(pin "V_CURRENT_SET" input
-			(at 237.49 49.53 180)
-			(uuid "ee52ecb9-56e0-4c31-a098-e3969dcf9b07")
+			(at 228.6 45.72 180)
+			(uuid "ad800561-614f-4b97-be22-ce7bc8df515e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_LED" input
+			(at 228.6 27.94 180)
+			(uuid "d60be48f-2d78-4d6a-811f-a38c119be3d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,7 +506,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 124.46)
+		(at 228.6 90.17)
 		(size 33.02 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -312,7 +522,7 @@
 		)
 		(uuid "fa02bcf9-bdc6-4000-b431-14bacede6ea5")
 		(property "Sheetname" "User_Interface"
-			(at 121.92 123.7484 0)
+			(at 228.6 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,12 +531,42 @@
 			)
 		)
 		(property "Sheetfile" "User_Interface.kicad_sch"
-			(at 121.92 156.7946 0)
+			(at 228.6 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EN_RGB_LED_DRIVER" input
+			(at 228.6 95.25 180)
+			(uuid "a133c48f-4c10-4948-a729-b466c3439679")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 228.6 100.33 180)
+			(uuid "d3b6ef4e-2b88-42af-bc70-13ecf9a7e9a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 228.6 105.41 180)
+			(uuid "1896b0e9-5322-43d0-b26b-cb703f4d562e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

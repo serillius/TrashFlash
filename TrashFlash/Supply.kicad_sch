@@ -774,7 +774,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+BATT"
+		(symbol "TrashFlash:VSYS"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -787,7 +787,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 10.16 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -795,7 +795,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+BATT"
+			(property "Value" "VSYS"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -821,7 +821,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(property "Description" "Power symbol creates a global label with name \"VSYS\""
+				(at 0.508 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -830,16 +839,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
+			(symbol "VSYS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -877,7 +877,132 @@
 					)
 				)
 			)
-			(symbol "+BATT_1_1"
+			(symbol "VSYS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -981,6 +1106,131 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -1283,16 +1533,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 254 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c9dff64-0f08-41fa-a793-d0d980c31a2a")
-	)
-	(wire
-		(pts
 			(xy 128.27 44.45) (xy 128.27 54.61)
 		)
 		(stroke
@@ -1513,16 +1753,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 113.03 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7faf918f-7abc-460d-978d-de62dfbf9d47")
-	)
-	(wire
-		(pts
 			(xy 128.27 97.79) (xy 135.89 97.79)
 		)
 		(stroke
@@ -1540,16 +1770,6 @@
 			(type default)
 		)
 		(uuid "858a4b26-1081-4ab2-b718-eaefe5b60d95")
-	)
-	(wire
-		(pts
-			(xy 50.8 44.45) (xy 106.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8afc7ef8-8b42-4d82-b9ad-903176560efd")
 	)
 	(wire
 		(pts
@@ -1693,13 +1913,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 44.45) (xy 254 44.45)
+			(xy 106.68 43.18) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e55bdc64-52b0-4c74-999e-744d8c1b3465")
+		(uuid "e1a68a1e-d0a8-483a-8559-6bcb8281ef32")
 	)
 	(wire
 		(pts
@@ -1810,39 +2030,6 @@
 			(type default)
 		)
 		(uuid "fdef18af-235e-4931-8d54-70a254a85cd5")
-	)
-	(hierarchical_label "VDD"
-		(shape output)
-		(at 254 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "09728003-89b0-4a9c-8230-a7ff2b877e52")
-	)
-	(hierarchical_label "VSYS"
-		(shape input)
-		(at 50.8 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11113111-159a-4b7e-9f7f-a2ac835079fd")
-	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 254 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "736e7b25-8c99-42de-a38b-0f2791ea0f4d")
 	)
 	(hierarchical_label "SEL_VDD"
 		(shape input)
@@ -2332,17 +2519,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 113.03 43.18 0)
+		(lib_id "power:+5V")
+		(at 195.58 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b63e3f8-ba9c-431b-ae6f-ed62f4c4dc77")
-		(property "Reference" "#PWR024"
-			(at 113.03 46.99 0)
+		(uuid "293c2a8b-52fc-4ed1-a41c-91bcea5b7871")
+		(property "Reference" "#PWR027"
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,8 +2537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
-			(at 113.03 38.1 0)
+		(property "Value" "+5V"
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 43.18 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 43.18 0)
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,8 +2563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 113.03 43.18 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,12 +2573,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6317cfe0-9903-4f01-a514-438e1bc9d9d5")
+			(uuid "8bbde525-9a50-419f-898f-dc20ba25ef3b")
 		)
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2615,72 +2802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 195.58 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7d7586-c372-470a-8b0d-ff1ef62b1605")
-		(property "Reference" "#PWR025"
-			(at 195.58 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 195.58 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00bcef33-6eb9-4830-a934-7dc8605c75c5")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 128.27 147.32 0)
 		(unit 1)
@@ -2747,17 +2868,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 195.58 113.03 0)
+		(lib_id "power:VDD")
+		(at 195.58 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "786dc9fc-1a42-4930-8cf4-2f527176ea7b")
-		(property "Reference" "#PWR031"
-			(at 195.58 116.84 0)
+		(uuid "6a9e65c7-b6c0-4e8e-af66-fb7345eea7ed")
+		(property "Reference" "#PWR052"
+			(at 195.58 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,8 +2886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
-			(at 195.58 107.95 0)
+		(property "Value" "VDD"
+			(at 195.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 113.03 0)
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 113.03 0)
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,8 +2912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 195.58 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,12 +2922,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1cb1676-d970-4f85-87b1-a410d7ac37cd")
+			(uuid "0808cc6e-a7db-41e8-b698-4c018155678f")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:VSYS")
+		(at 113.03 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b18078-2381-4208-b022-6975a1dbf828")
+		(property "Reference" "#PWR025"
+			(at 123.19 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSYS\""
+			(at 113.538 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed100a9-25c7-4596-9a89-5e518ceaa7f1")
 		)
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR031")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3345,72 +3532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 113.03 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc52c4c0-99ca-4cce-b553-bfc998968b7c")
-		(property "Reference" "#PWR027"
-			(at 113.03 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 113.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 113.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42986295-48a6-4d9a-816f-c5894dc3d244")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 77.47 0)
 		(unit 1)
@@ -3677,6 +3798,72 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:VSYS")
+		(at 106.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d2d111-3151-466f-914c-c8d9f142071a")
+		(property "Reference" "#PWR024"
+			(at 116.84 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 106.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSYS\""
+			(at 107.188 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0179ed8-0ee9-4413-ba34-699ede792369")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
