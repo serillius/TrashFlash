@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 24754778871227686
+=======
+24756527831158857
+>>>>>>> cbae246228f83ee5707a005ed440ea6d7ef531b6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98767,8 +98771,13 @@ SI5448DUT1GE3
 PowerPak ChipFet Single
 Undefined or Miscellaneous
 0
+<<<<<<< HEAD
 10
 10
+=======
+4
+3
+>>>>>>> cbae246228f83ee5707a005ed440ea6d7ef531b6
 TrashFlash
 SN74LXC2T45QDTTRQ1
 SN74LXC2T45QDTTRQ1-3
@@ -98784,6 +98793,16 @@ Integrated Circuit
 9
 9
 TrashFlash
+<<<<<<< HEAD
+=======
+SON65P200X200X80-7N
+6-WSON (2x2)
+Integrated Circuit
+0
+7
+7
+TrashFlash
+>>>>>>> cbae246228f83ee5707a005ed440ea6d7ef531b6
 SON65P300X300X100-9N-D
 8-Lead Plastic Dual Flat, No Lead Package (MF) – 3x3x0.9 mm Body [DFN]
 Integrated Circuit
