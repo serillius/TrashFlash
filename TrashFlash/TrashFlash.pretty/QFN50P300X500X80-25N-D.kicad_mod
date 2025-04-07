@@ -341,7 +341,7 @@
 		(uuid "0d6fdd3e-6e2a-4d04-97d3-7ed0480c5363")
 	)
 	(embedded_fonts no)
-	(model "LTC3643IUDD#PBF.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/LTC3643IUDD#PBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

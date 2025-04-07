@@ -219,15 +219,15 @@
 		(uuid "4c36b6c8-c84b-48ea-8c5e-c6a53a6252e5")
 	)
 	(embedded_fonts no)
-	(model "BC56-10PA,115.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/BC56-10PA,115.stp"
 		(offset
-			(xyz 0.8600000014 1.509999968 1.129999978)
+			(xyz 0.85 1.55 1.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 -180)
+			(xyz 90 -0 -180)
 		)
 	)
 )

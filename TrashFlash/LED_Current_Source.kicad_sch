@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:SI5448DUT1GE3"
+		(property "Footprint" "SI5448DUT1GE3"
 			(at 285.75 235.89 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SON50P300X200X80-9N-D"
+		(property "Footprint" "SON50P300X200X80-9N-D"
 			(at 226.314 145.796 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SOT95P280X100-5N"
+		(property "Footprint" "SOT95P280X100-5N"
 			(at 209.55 334.95 0)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
+		(property "Footprint" "PTVS24VZ1UPAZ"
 			(at 262.636 96.774 0)
 			(effects
 				(font
@@ -5556,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
+		(property "Footprint" "PTVS24VZ1UPAZ"
 			(at 313.436 96.774 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SOT95P280X100-5N"
+		(property "Footprint" "SOT95P280X100-5N"
 			(at 207.01 178.74 0)
 			(effects
 				(font
@@ -6085,7 +6085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SN74LXC2T45QDTTRQ1"
+		(property "Footprint" "SN74LXC2T45QDTTRQ1"
 			(at 251.46 273.99 0)
 			(effects
 				(font
@@ -6848,7 +6848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
+		(property "Footprint" "PTVS24VZ1UPAZ"
 			(at 237.236 96.774 0)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:PTVS24VZ1UPAZ"
+		(property "Footprint" "PTVS24VZ1UPAZ"
 			(at 288.036 96.774 0)
 			(effects
 				(font
@@ -7367,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TrashFlash:SI5448DUT1GE3"
+		(property "Footprint" "SI5448DUT1GE3"
 			(at 311.15 235.89 0)
 			(effects
 				(font

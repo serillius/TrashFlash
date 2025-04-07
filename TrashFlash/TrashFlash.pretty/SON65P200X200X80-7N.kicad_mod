@@ -215,15 +215,4 @@
 		(uuid "b879df21-884b-4414-a969-3ecd1429cd55")
 	)
 	(embedded_fonts no)
-	(model "TPS61240DRVR.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

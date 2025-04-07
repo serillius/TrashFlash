@@ -261,15 +261,4 @@
 		(uuid "db1bc3bc-a41b-469c-80ea-902686f04468")
 	)
 	(embedded_fonts no)
-	(model "TPS631000DRLR.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

@@ -243,7 +243,7 @@
 		(uuid "57979e67-63e7-462e-97cb-4b6b710f523c")
 	)
 	(embedded_fonts no)
-	(model "TPS63900DSKR.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/TPS63900DSKR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

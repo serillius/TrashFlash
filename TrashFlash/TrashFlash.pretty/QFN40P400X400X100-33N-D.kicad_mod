@@ -397,7 +397,7 @@
 		(uuid "9a7d6c71-c7ca-4b02-b510-6a5422a4a205")
 	)
 	(embedded_fonts no)
-	(model "LP5024RSMR.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/LP5024RSMR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

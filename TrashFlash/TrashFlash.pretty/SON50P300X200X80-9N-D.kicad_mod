@@ -229,7 +229,7 @@
 		(uuid "796aea0d-5839-4e83-bfef-be951c23b4f7")
 	)
 	(embedded_fonts no)
-	(model "ADG5419BCPZ-RL7.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/ADG5419BCPZ-RL7.stp"
 		(offset
 			(xyz 0 0 0)
 		)

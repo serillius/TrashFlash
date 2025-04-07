@@ -127,7 +127,7 @@
 		(uuid "0791a835-8a97-4240-9202-7d7d25343294")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/TrashFlash.pretty/ec11e09244aq.step"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/ec11e09244aq.step"
 		(offset
 			(xyz 2.5 7.5 3.5)
 		)

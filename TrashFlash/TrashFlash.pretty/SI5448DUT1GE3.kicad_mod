@@ -279,4 +279,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/SI5448DU-T1-GE3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

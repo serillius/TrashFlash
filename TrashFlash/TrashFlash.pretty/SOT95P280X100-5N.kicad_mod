@@ -240,7 +240,7 @@
 		(uuid "25ede1c6-900a-43c4-bd5f-0bbddc93d87a")
 	)
 	(embedded_fonts no)
-	(model "AD8615AUJZ-REEL.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/AD8615AUJZ-REEL.stp"
 		(offset
 			(xyz 0 0 0)
 		)

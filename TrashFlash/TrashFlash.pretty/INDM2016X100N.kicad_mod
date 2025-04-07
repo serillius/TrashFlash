@@ -179,7 +179,7 @@
 		(uuid "be059504-d043-464d-b4b8-09c2b996a95e")
 	)
 	(embedded_fonts no)
-	(model "74438343022.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/74438343022.stp"
 		(offset
 			(xyz 0 0 0)
 		)

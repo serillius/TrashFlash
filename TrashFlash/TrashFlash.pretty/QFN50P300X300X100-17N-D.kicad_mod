@@ -285,7 +285,7 @@
 		(uuid "f3e2ef16-796b-45a7-b6b3-e5e951a9d2b3")
 	)
 	(embedded_fonts no)
-	(model "BQ24230RGTR.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/BQ24230RGTR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

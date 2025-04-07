@@ -208,15 +208,15 @@
 		(uuid "497b233b-969e-4bc3-980d-15ed3c79f745")
 	)
 	(embedded_fonts no)
-	(model "BQ29732DSER.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/BQ29732DSER.stp"
 		(offset
-			(xyz 0 0 0.02999999888)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 -0 -90)
 		)
 	)
 )

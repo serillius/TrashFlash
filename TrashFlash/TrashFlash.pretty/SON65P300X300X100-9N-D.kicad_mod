@@ -229,7 +229,7 @@
 		(uuid "0b17aee6-97c0-46fc-9c77-f3eb1959d5db")
 	)
 	(embedded_fonts no)
-	(model "MCP4151-103E_MF.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/MCP4151-103E_MF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

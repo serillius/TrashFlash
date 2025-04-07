@@ -240,7 +240,7 @@
 		(uuid "0f9a23f6-4035-4616-af25-1b5809c8b2b4")
 	)
 	(embedded_fonts no)
-	(model "OPA191IDBVR.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/OPA191IDBVR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

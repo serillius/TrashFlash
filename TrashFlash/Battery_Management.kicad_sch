@@ -4406,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SON50P150X150X80-6N"
+		(property "Footprint" "SON50P150X150X80-6N"
 			(at 74.93 149.53 0)
 			(effects
 				(font
@@ -4538,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:BGA9C50P3X3_158X162X62"
+		(property "Footprint" "BGA9C50P3X3_158X162X62"
 			(at 158.75 135.56 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:USB480003A"
+		(property "Footprint" "USB480003A"
 			(at 135.128 198.374 0)
 			(effects
 				(font
@@ -5177,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:PMDPB30XNAX"
+		(property "Footprint" "PMDPB30XNAX"
 			(at 109.22 163.5 0)
 			(effects
 				(font
@@ -5375,7 +5375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:QFN50P300X300X100-17N-D"
+		(property "Footprint" "QFN50P300X300X100-17N-D"
 			(at 207.264 85.344 0)
 			(effects
 				(font

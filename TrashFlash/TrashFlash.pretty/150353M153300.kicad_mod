@@ -249,7 +249,7 @@
 		(uuid "b3a4a4ff-fbe4-496b-ad91-fdb835b9c7d0")
 	)
 	(embedded_fonts no)
-	(model "150353M153300.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/150353M153300.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -257,7 +257,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )

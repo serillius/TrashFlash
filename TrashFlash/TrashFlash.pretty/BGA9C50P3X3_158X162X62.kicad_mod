@@ -270,7 +270,7 @@
 		(uuid "17883a3f-9b8f-429b-b602-13b1a305d049")
 	)
 	(embedded_fonts no)
-	(model "BQ27426YZFR.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/BQ27426YZFR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1011,4 +1011,15 @@
 		(uuid "66b7c522-4b8c-4c90-8110-c97eb3ed91bc")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/USB4800-03-A.stp"
+		(offset
+			(xyz 0 -4.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -243,15 +243,15 @@
 		(uuid "491b5c5f-668a-41ba-aebd-b8b8d066c9b4")
 	)
 	(embedded_fonts no)
-	(model "PMDPB30XNAX.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/PMDPB30XNAX.stp"
 		(offset
-			(xyz 0 0 0.03999999851)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 0)
+			(xyz 0 0 0)
 		)
 	)
 )

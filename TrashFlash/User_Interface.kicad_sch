@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 201.93 166.04 0)
 			(effects
 				(font
@@ -4030,7 +4030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 176.53 155.88 0)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:ec11e09244aq"
+		(property "Footprint" "ec11e09244aq"
 			(at 48.26 143.51 0)
 			(effects
 				(font
@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:QFN40P400X400X100-33N-D"
+		(property "Footprint" "QFN40P400X400X100-33N-D"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 201.93 186.36 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 176.53 176.2 0)
 			(effects
 				(font
@@ -4991,7 +4991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 201.93 145.72 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 201.93 206.68 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 176.53 135.56 0)
 			(effects
 				(font
@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
+		(property "Footprint" "150353M153300"
 			(at 176.53 196.52 0)
 			(effects
 				(font
