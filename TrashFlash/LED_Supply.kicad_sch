@@ -1554,6 +1554,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Vdrive range:\n16.6 V to 34.6 V"
+		(exclude_from_sim no)
+		(at 144.78 85.09 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25cb6a15-3e69-488c-9bd2-945b3e035072")
+	)
+	(text "Change this so we can turn on with MCU!\n"
+		(exclude_from_sim no)
+		(at 90.678 60.706 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c17cb3a-a2a9-407c-90fb-f9bcfd77bcf3")
+	)
 	(junction
 		(at 176.53 63.5)
 		(diameter 0)
