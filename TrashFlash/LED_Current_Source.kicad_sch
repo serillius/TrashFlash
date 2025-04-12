@@ -2404,12 +2404,6 @@
 		(uuid "127db146-134b-46ce-84a1-3a46612514a3")
 	)
 	(junction
-		(at 276.86 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1750e6b7-64ac-4c70-bca8-7a2b3d24ea24")
-	)
-	(junction
 		(at 276.86 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,22 +2542,10 @@
 		(uuid "d34f3623-ac8d-46cf-88d3-91ed823bada2")
 	)
 	(junction
-		(at 276.86 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e12d5485-0cb4-4f9d-a837-f6a684cc040f")
-	)
-	(junction
 		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eecc151d-4994-48c8-bd85-89b14390bd51")
-	)
-	(junction
-		(at 264.16 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eee31b18-299c-449d-992a-41b4cfea8b66")
 	)
 	(no_connect
 		(at 279.4 52.07)
@@ -2760,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "1d20ecea-c95c-46c5-af86-4fa389f68340")
-	)
-	(wire
-		(pts
-			(xy 276.86 144.78) (xy 276.86 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e11f0c7-a06c-4cae-89a1-2bdb464f263f")
 	)
 	(wire
 		(pts
@@ -3153,16 +3125,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 140.97) (xy 264.16 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774dda38-568e-4d2b-a105-f1438e863135")
-	)
-	(wire
-		(pts
 			(xy 242.57 196.85) (xy 242.57 212.09)
 		)
 		(stroke
@@ -3283,16 +3245,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 152.4) (xy 276.86 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a98a6799-e22a-4973-b717-d2e47f919d0c")
-	)
-	(wire
-		(pts
 			(xy 200.66 83.82) (xy 231.14 83.82)
 		)
 		(stroke
@@ -3333,13 +3285,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 152.4) (xy 251.46 181.61)
+			(xy 276.86 152.4) (xy 276.86 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b400ae97-22c5-41e0-848a-299d49f9203a")
+		(uuid "b1a3e784-2c0b-4f43-9e96-9b5863ec844e")
 	)
 	(wire
 		(pts
@@ -3400,16 +3352,6 @@
 			(type default)
 		)
 		(uuid "c9d24986-27d9-489d-821b-2ea92d21f3a5")
-	)
-	(wire
-		(pts
-			(xy 200.66 196.85) (xy 199.39 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1d088b-e125-4ed7-98e7-d3a66c4bb80a")
 	)
 	(wire
 		(pts
@@ -3500,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "e3370cde-7b95-423b-bbf1-3325fedd4dcc")
+	)
+	(wire
+		(pts
+			(xy 251.46 152.4) (xy 251.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67fea37-99a1-4b46-a949-d8b46fd64a6b")
 	)
 	(wire
 		(pts
@@ -3661,7 +3613,107 @@
 		)
 		(uuid "ff374913-838d-46e1-ad16-6edd1f061bb4")
 	)
-	(hierarchical_label "EN_20A_PATH"
+	(label "GATE_DRV_200mA"
+		(at 276.86 177.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05d1253f-7eed-4ce1-9202-19a6c6e7bcbc")
+	)
+	(label "TCA_POS_IN"
+		(at 163.83 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "184c2d10-5cec-48ce-b821-34002b4e9c24")
+	)
+	(label "TCA_COLLECTOR"
+		(at 243.84 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "388823ad-733a-40af-bf48-95f27198c507")
+	)
+	(label "TCA_BASE_DRIVE"
+		(at 203.2 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b7a352d-4d62-4555-8b05-f3e8f16461a6")
+	)
+	(label "GATE_DRV_20A"
+		(at 251.46 177.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7610cb11-2be0-4da4-b729-9e047cc29d32")
+	)
+	(label "TCA_CURRENT_FB"
+		(at 177.8 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f3a3b3-a4e8-48de-82b7-4261872f9f4a")
+	)
+	(label "TCA_EMITTER"
+		(at 245.11 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86d1b1d0-467d-4173-9c69-07cac0b860e8")
+	)
+	(label "TCA_NEG_IN"
+		(at 177.8 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ff5a086-0beb-462d-83ff-86e903f6818c")
+	)
+	(label "TCA_FB_20A"
+		(at 240.03 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5f6abb5-d060-4f2d-a9ac-2549cf47d87e")
+	)
+	(label "TCA_FB_200mA"
+		(at 240.03 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea9f628b-7e7d-4044-8687-ed9fa3a16569")
+	)
+	(hierarchical_label "EN_LED_RANGE_20A"
 		(shape input)
 		(at 124.46 181.61 180)
 		(effects
@@ -3672,7 +3724,7 @@
 		)
 		(uuid "035db63e-b17f-4dd7-a289-7dcd072650c4")
 	)
-	(hierarchical_label "V_CURRENT_SET"
+	(hierarchical_label "VSET_LED_CURRENT"
 		(shape input)
 		(at 124.46 81.28 180)
 		(effects
@@ -3683,7 +3735,7 @@
 		)
 		(uuid "4c66aa11-75b5-4b4b-8a36-a82590d16509")
 	)
-	(hierarchical_label "SW_IN"
+	(hierarchical_label "SELECT_LED_RANGE"
 		(shape input)
 		(at 124.46 132.08 180)
 		(effects
@@ -3694,18 +3746,7 @@
 		)
 		(uuid "5553db1d-a0a2-46ca-b9ec-d73af5ccd2d0")
 	)
-	(hierarchical_label "SW_EN"
-		(shape input)
-		(at 124.46 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7999a5c-b200-49f6-b61c-06e277b83e1c")
-	)
-	(hierarchical_label "EN_0.2A_PATH"
+	(hierarchical_label "EN_LED_RANGE_200mA"
 		(shape input)
 		(at 124.46 184.15 180)
 		(effects
@@ -6541,6 +6582,73 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 124.46 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b26c794c-5da1-4b2c-a297-e3dd3e37b919")
+		(property "Reference" "#PWR061"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 120.65 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12dc0704-3d2d-4b0d-bbff-a5cfb68bcc41")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/b540a372-b28b-49dd-801f-e36c7fece9b9"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)

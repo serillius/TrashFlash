@@ -2266,43 +2266,43 @@
 		(uuid "075839a2-4081-46b4-9444-b4338b42532c")
 	)
 	(junction
-		(at 226.06 91.44)
+		(at 241.3 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "114ee8ce-0aa2-4e2b-bdb9-2ebc5ec66c72")
 	)
 	(junction
-		(at 226.06 71.12)
+		(at 241.3 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12d21971-0b21-4b11-8a63-882f9c6c2bc3")
 	)
 	(junction
-		(at 200.66 104.14)
+		(at 215.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e317501-a003-4c84-a8cc-2333cc1f17d6")
 	)
 	(junction
-		(at 226.06 73.66)
+		(at 241.3 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f252de0-b291-4f14-8717-4e0ec3019b6f")
 	)
 	(junction
-		(at 226.06 55.88)
+		(at 241.3 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a640df2-f4f5-4178-a765-2ec82a58678b")
 	)
 	(junction
-		(at 226.06 40.64)
+		(at 241.3 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cdd7cd9-c4b6-444c-ab35-46915599d1d7")
 	)
 	(junction
-		(at 226.06 93.98)
+		(at 241.3 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2949ed-3ca7-4d46-9374-b361685a7452")
@@ -2320,31 +2320,31 @@
 		(uuid "4189f555-94da-4ef8-a5da-18e92a91824a")
 	)
 	(junction
-		(at 200.66 40.64)
+		(at 215.9 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "419909e8-28d9-456e-9d0f-b6e3dc454d8d")
 	)
 	(junction
-		(at 226.06 96.52)
+		(at 241.3 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f524c51-aa98-47db-8d5e-d9ed2d852642")
 	)
 	(junction
-		(at 200.66 43.18)
+		(at 215.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77b8a517-a3e8-4aa0-bf93-e03ba4040d74")
 	)
 	(junction
-		(at 200.66 83.82)
+		(at 215.9 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a82de23-60f0-4be0-9fee-64e2083022db")
 	)
 	(junction
-		(at 226.06 101.6)
+		(at 241.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e6574a-f4ed-4f5f-b771-e8a4dc3e1804")
@@ -2356,67 +2356,73 @@
 		(uuid "ad931157-8f49-4848-91fd-948369c574ef")
 	)
 	(junction
-		(at 226.06 53.34)
+		(at 241.3 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb6a7d60-658d-4a9d-9b04-3a3e9e95a104")
 	)
 	(junction
-		(at 226.06 76.2)
+		(at 241.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde15f31-6d97-4d37-ab92-63c12f954c83")
 	)
 	(junction
-		(at 200.66 60.96)
+		(at 127 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0802be9-e18e-46a1-bb0e-85919d57971a")
+	)
+	(junction
+		(at 215.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0e5e0a6-5768-4d4a-a8b6-261bb47dc3a6")
 	)
 	(junction
-		(at 226.06 60.96)
+		(at 241.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8019408-64eb-4d60-b6bf-51482604c1a9")
 	)
 	(junction
-		(at 226.06 81.28)
+		(at 241.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceb5b2a0-a3ad-4f88-8dd6-a6738de73552")
 	)
 	(junction
-		(at 200.66 81.28)
+		(at 215.9 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf7ab76f-c99b-4466-8547-5dbc901436dc")
 	)
 	(junction
-		(at 226.06 114.3)
+		(at 241.3 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e07e02cd-86b9-4127-a8d2-c12ccfa51bf8")
 	)
 	(junction
-		(at 200.66 63.5)
+		(at 215.9 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f5b05c-e213-4d56-ae01-44491c8d96b2")
 	)
 	(junction
-		(at 226.06 50.8)
+		(at 241.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3f98fa7-a71c-4007-8e25-a37be4ec2a15")
 	)
 	(junction
-		(at 226.06 111.76)
+		(at 241.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4c64040-e234-4403-9a7c-06c01340ce74")
 	)
 	(junction
-		(at 200.66 101.6)
+		(at 215.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5b03933-0a07-4332-ba45-dec5ade17b6b")
@@ -2429,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 40.64) (xy 170.18 40.64)
+			(xy 198.12 40.64) (xy 170.18 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 177.8 72.39)
+			(xy 193.04 76.2) (xy 193.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 204.47 71.12)
+			(xy 190.5 71.12) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 49.53) (xy 205.74 50.8)
+			(xy 220.98 49.53) (xy 220.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2475,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 53.34) (xy 175.26 50.8)
+			(xy 190.5 53.34) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 172.72 90.17)
+			(xy 187.96 91.44) (xy 187.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 83.82) (xy 200.66 81.28)
+			(xy 215.9 83.82) (xy 215.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 55.88) (xy 208.28 55.88)
+			(xy 217.17 55.88) (xy 223.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 200.66 81.28)
+			(xy 213.36 81.28) (xy 215.9 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 76.2) (xy 226.06 73.66)
+			(xy 241.3 76.2) (xy 241.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 226.06 71.12)
+			(xy 238.76 71.12) (xy 241.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 200.66 86.36)
+			(xy 213.36 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 55.88) (xy 177.8 55.88)
+			(xy 170.18 55.88) (xy 193.04 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 96.52) (xy 226.06 96.52)
+			(xy 238.76 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 200.66 43.18)
+			(xy 215.9 45.72) (xy 215.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 205.74 49.53)
+			(xy 187.96 49.53) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 40.64) (xy 226.06 50.8)
+			(xy 241.3 40.64) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 170.18 43.18)
+			(xy 198.12 43.18) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 53.34) (xy 208.28 53.34)
+			(xy 219.71 53.34) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 52.07) (xy 201.93 52.07)
+			(xy 193.04 52.07) (xy 217.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2639,7 +2645,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 69.85) (xy 205.74 71.12)
+			(xy 220.98 69.85) (xy 220.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 170.18 106.68)
+			(xy 198.12 106.68) (xy 170.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2669,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 53.34) (xy 226.06 53.34)
+			(xy 238.76 53.34) (xy 241.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 50.8) (xy 204.47 53.34)
+			(xy 219.71 50.8) (xy 219.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2699,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 55.88) (xy 177.8 52.07)
+			(xy 193.04 55.88) (xy 193.04 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 55.88) (xy 226.06 53.34)
+			(xy 241.3 55.88) (xy 241.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2739,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 114.3 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40526745-95fa-4ec6-8d6f-9600697a5bbc")
-	)
-	(wire
-		(pts
 			(xy 132.08 83.82) (xy 134.62 83.82)
 		)
 		(stroke
@@ -2759,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 72.39) (xy 201.93 76.2)
+			(xy 217.17 72.39) (xy 217.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 205.74 90.17)
+			(xy 187.96 90.17) (xy 220.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 170.18 63.5)
+			(xy 198.12 63.5) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 208.28 71.12)
+			(xy 220.98 71.12) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 50.8) (xy 172.72 49.53)
+			(xy 187.96 50.8) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 201.93 96.52)
+			(xy 217.17 92.71) (xy 217.17 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 45.72) (xy 170.18 45.72)
+			(xy 198.12 45.72) (xy 170.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2839,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 73.66) (xy 175.26 73.66)
+			(xy 170.18 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 226.06 101.6)
+			(xy 241.3 96.52) (xy 241.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 50.8) (xy 172.72 50.8)
+			(xy 170.18 50.8) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 201.93 55.88)
+			(xy 217.17 52.07) (xy 217.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2895,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 60.96) (xy 226.06 60.96)
+			(xy 215.9 60.96) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 90.17) (xy 205.74 91.44)
+			(xy 220.98 90.17) (xy 220.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 72.39) (xy 201.93 72.39)
+			(xy 193.04 72.39) (xy 217.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2925,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 170.18 101.6)
+			(xy 198.12 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 200.66 106.68)
+			(xy 213.36 106.68) (xy 215.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 208.28 116.84)
+			(xy 170.18 116.84) (xy 223.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 81.28) (xy 226.06 91.44)
+			(xy 241.3 81.28) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 66.04) (xy 200.66 66.04)
+			(xy 213.36 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 175.26 71.12)
+			(xy 190.5 73.66) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 116.84) (xy 226.06 116.84)
+			(xy 238.76 116.84) (xy 241.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3009,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 175.26 93.98)
+			(xy 170.18 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 93.98) (xy 226.06 91.44)
+			(xy 241.3 93.98) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 200.66 104.14)
+			(xy 215.9 106.68) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3045,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 73.66) (xy 208.28 73.66)
+			(xy 114.3 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bed2d52-de68-4aea-b0bb-151d4be7f410")
+	)
+	(wire
+		(pts
+			(xy 219.71 73.66) (xy 223.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 73.66) (xy 226.06 71.12)
+			(xy 241.3 73.66) (xy 241.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 104.14) (xy 200.66 101.6)
+			(xy 215.9 104.14) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 53.34) (xy 175.26 53.34)
+			(xy 170.18 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 208.28 50.8)
+			(xy 220.98 50.8) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 69.85)
+			(xy 187.96 71.12) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 96.52) (xy 208.28 96.52)
+			(xy 217.17 96.52) (xy 223.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 200.66 83.82)
+			(xy 215.9 86.36) (xy 215.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 101.6) (xy 226.06 111.76)
+			(xy 241.3 101.6) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 226.06 93.98)
+			(xy 238.76 93.98) (xy 241.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3215,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 204.47 91.44)
+			(xy 190.5 91.44) (xy 219.71 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 114.3) (xy 226.06 111.76)
+			(xy 241.3 114.3) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 226.06 73.66)
+			(xy 238.76 73.66) (xy 241.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 53.34) (xy 226.06 50.8)
+			(xy 241.3 53.34) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 201.93 92.71)
+			(xy 193.04 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3265,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 177.8 96.52)
+			(xy 170.18 96.52) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 170.18 83.82)
+			(xy 198.12 83.82) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 91.44) (xy 226.06 91.44)
+			(xy 238.76 91.44) (xy 241.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 200.66 83.82)
+			(xy 213.36 83.82) (xy 215.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 76.2) (xy 177.8 76.2)
+			(xy 170.18 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 170.18 60.96)
+			(xy 198.12 60.96) (xy 170.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 66.04) (xy 170.18 66.04)
+			(xy 198.12 66.04) (xy 170.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 226.06 93.98)
+			(xy 241.3 96.52) (xy 241.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3349,13 +3355,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 134.62 106.68)
+			(xy 121.92 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aceebde1-50d9-4680-9bef-34ffdc95e063")
+		(uuid "acf3a621-d004-4041-a579-9b48a3233591")
 	)
 	(wire
 		(pts
@@ -3369,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 208.28 91.44)
+			(xy 220.98 91.44) (xy 223.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 101.6) (xy 226.06 101.6)
+			(xy 215.9 101.6) (xy 241.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 116.84) (xy 226.06 114.3)
+			(xy 241.3 116.84) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3399,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 55.88) (xy 226.06 60.96)
+			(xy 241.3 55.88) (xy 241.3 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 205.74 69.85)
+			(xy 187.96 69.85) (xy 220.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 76.2) (xy 226.06 81.28)
+			(xy 241.3 76.2) (xy 241.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3429,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 91.44) (xy 204.47 93.98)
+			(xy 219.71 91.44) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 39.37) (xy 226.06 40.64)
+			(xy 241.3 39.37) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 200.66 60.96)
+			(xy 213.36 60.96) (xy 215.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 40.64) (xy 200.66 40.64)
+			(xy 213.36 40.64) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3489,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 76.2) (xy 208.28 76.2)
+			(xy 217.17 76.2) (xy 223.52 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 43.18) (xy 200.66 43.18)
+			(xy 213.36 43.18) (xy 215.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3515,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 208.28 111.76)
+			(xy 170.18 111.76) (xy 223.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3519,7 +3525,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 45.72) (xy 200.66 45.72)
+			(xy 213.36 45.72) (xy 215.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 50.8) (xy 204.47 50.8)
+			(xy 190.5 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3549,7 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 170.18 81.28)
+			(xy 198.12 81.28) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 63.5) (xy 200.66 60.96)
+			(xy 215.9 63.5) (xy 215.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 63.5) (xy 200.66 63.5)
+			(xy 213.36 63.5) (xy 215.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 60.96) (xy 226.06 71.12)
+			(xy 241.3 60.96) (xy 241.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3595,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 93.98) (xy 175.26 91.44)
+			(xy 190.5 93.98) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 71.12) (xy 204.47 73.66)
+			(xy 219.71 71.12) (xy 219.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3635,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 200.66 104.14)
+			(xy 213.36 104.14) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3645,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 170.18 86.36)
+			(xy 127 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec34cf2e-ccd9-40ee-9886-157dd4d2cc38")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 40.64) (xy 226.06 40.64)
+			(xy 215.9 40.64) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 76.2) (xy 226.06 76.2)
+			(xy 238.76 76.2) (xy 241.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3679,7 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 226.06 55.88)
+			(xy 238.76 55.88) (xy 241.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 200.66 63.5)
+			(xy 215.9 66.04) (xy 215.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 43.18) (xy 200.66 40.64)
+			(xy 215.9 43.18) (xy 215.9 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +3745,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 170.18 104.14)
+			(xy 198.12 104.14) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3739,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 208.28 114.3)
+			(xy 170.18 114.3) (xy 223.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +3765,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 172.72 91.44)
+			(xy 170.18 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3775,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 226.06 50.8)
+			(xy 238.76 50.8) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 200.66 101.6)
+			(xy 213.36 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3795,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 208.28 93.98)
+			(xy 219.71 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3789,7 +3805,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 111.76) (xy 226.06 111.76)
+			(xy 238.76 111.76) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3799,7 +3815,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 226.06 114.3)
+			(xy 238.76 114.3) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3809,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 226.06 81.28)
+			(xy 215.9 81.28) (xy 241.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3819,7 +3835,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 172.72 71.12)
+			(xy 170.18 71.12) (xy 187.96 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3829,13 +3845,273 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 177.8 92.71)
+			(xy 193.04 96.52) (xy 193.04 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fec1e15b-4199-4085-a467-d64a1d76d320")
+	)
+	(label "RED1"
+		(at 171.45 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0261f090-3c44-479a-ba2d-90503393749a")
+	)
+	(label "BLUE5"
+		(at 171.45 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16095015-da72-4a31-b9e7-a4eda6b0f781")
+	)
+	(label "GREEN6"
+		(at 171.45 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "387192e1-8210-4f45-ba35-7d2dc4d24dfc")
+	)
+	(label "RED2"
+		(at 171.45 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e4f9c2b-f690-44c0-b540-813e8cbe51f4")
+	)
+	(label "VCAP_RGB"
+		(at 121.92 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fe37bf2-4a22-4768-b03a-a6a429af5406")
+	)
+	(label "GREEN3"
+		(at 171.45 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d4b103-0b92-42f6-8c79-578d4e5937d4")
+	)
+	(label "RED6"
+		(at 171.45 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "516988cd-4036-4190-845b-24fd3d94b2ba")
+	)
+	(label "GREEN4"
+		(at 171.45 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55fe0641-3944-4346-aed4-472b37706d89")
+	)
+	(label "RED7"
+		(at 171.45 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56622f2d-8259-4a5e-a0ec-79942db519c8")
+	)
+	(label "RED4"
+		(at 171.45 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "688cf381-0737-4645-b876-84ae6c792271")
+	)
+	(label "IREF_RGB"
+		(at 121.92 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ea4897a-d8a2-4dc8-b141-8ae3cf0430ba")
+	)
+	(label "BLUE3"
+		(at 171.45 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87f99a78-9e9b-4bac-9afd-ee8b0213aca9")
+	)
+	(label "GREEN7"
+		(at 171.45 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d683b7-727f-41c5-9c0a-3defe8f8c2ee")
+	)
+	(label "GREEN1"
+		(at 171.45 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b619a35-b1da-4b92-8715-829429b209f6")
+	)
+	(label "BLUE0"
+		(at 171.45 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d8caec3-2500-4056-ab95-54bf706b858b")
+	)
+	(label "BLUE1"
+		(at 171.45 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1d59fc8-675a-4c7a-877d-73c524b76ed4")
+	)
+	(label "RED5"
+		(at 171.45 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7de8a17-e850-48d9-b18e-2f7a1430580b")
+	)
+	(label "BLUE2"
+		(at 171.45 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb609213-ee3a-43c1-82a2-4496dabd2c8c")
+	)
+	(label "BLUE7"
+		(at 171.45 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc6dca06-7df8-41b3-bf44-92c76fa932da")
+	)
+	(label "BLUE4"
+		(at 171.45 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7423a46-6773-4fdb-ab7b-a8f93bddba9d")
+	)
+	(label "GREEN0"
+		(at 171.45 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed4fcebf-2c03-4671-9341-bccb5b93131a")
+	)
+	(label "BLUE6"
+		(at 171.45 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3e73595-08b6-4bfa-9f1f-7ce3f9b50ca3")
+	)
+	(label "RED3"
+		(at 171.45 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6cfd919-d96d-4e97-ab4c-fb2746845ed1")
+	)
+	(label "RED0"
+		(at 171.45 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f713cd58-f4d4-4311-bd24-57672b0ab003")
+	)
+	(label "GREEN2"
+		(at 171.45 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f923c259-a400-4eef-9f33-0ace9103126c")
+	)
+	(label "GREEN5"
+		(at 171.45 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdbc8e38-72a3-4479-9e77-ae41b8baff75")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -3872,7 +4148,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 233.68 71.12 0)
+		(at 248.92 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3882,7 +4158,7 @@
 		(fields_autoplaced yes)
 		(uuid "004a00dd-e39c-41ce-a32a-6d4c0ea62ed5")
 		(property "Reference" "LED4"
-			(at 215.9 63.5 0)
+			(at 231.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +4166,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 215.9 66.04 0)
+			(at 231.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +4174,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 201.93 166.04 0)
+			(at 217.17 166.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4184,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 201.93 266.04 0)
+			(at 217.17 266.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +4194,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 215.9 81.28 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4203,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 201.93 466.04 0)
+			(at 217.17 466.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +4213,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 201.93 566.04 0)
+			(at 217.17 566.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +4223,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 201.93 666.04 0)
+			(at 217.17 666.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +4233,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 201.93 766.04 0)
+			(at 217.17 766.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +4243,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 201.93 866.04 0)
+			(at 217.17 866.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 208.28 60.96 0)
+		(at 223.52 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4015,7 +4291,7 @@
 		(fields_autoplaced yes)
 		(uuid "0520d209-5683-40f5-802a-92a03cd370b6")
 		(property "Reference" "LED2"
-			(at 190.5 53.34 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4299,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 190.5 55.88 0)
+			(at 205.74 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4307,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 176.53 155.88 0)
+			(at 191.77 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 176.53 255.88 0)
+			(at 191.77 255.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4327,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 190.5 71.12 0)
+			(at 205.74 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4336,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 176.53 455.88 0)
+			(at 191.77 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4346,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 176.53 555.88 0)
+			(at 191.77 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4356,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 176.53 655.88 0)
+			(at 191.77 655.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4366,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 176.53 755.88 0)
+			(at 191.77 755.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4376,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 176.53 855.88 0)
+			(at 191.77 855.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4704,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 233.68 91.44 0)
+		(at 248.92 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4438,7 +4714,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d930553-37d7-4cfb-ac94-274efe0bfd84")
 		(property "Reference" "LED6"
-			(at 215.9 83.82 0)
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4722,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 215.9 86.36 0)
+			(at 231.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4730,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 201.93 186.36 0)
+			(at 217.17 186.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 201.93 286.36 0)
+			(at 217.17 286.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4750,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 215.9 101.6 0)
+			(at 231.14 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4759,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 201.93 486.36 0)
+			(at 217.17 486.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4769,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 201.93 586.36 0)
+			(at 217.17 586.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4779,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 201.93 686.36 0)
+			(at 217.17 686.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4789,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 201.93 786.36 0)
+			(at 217.17 786.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4799,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 201.93 886.36 0)
+			(at 217.17 886.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4837,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 208.28 81.28 0)
+		(at 223.52 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4571,7 +4847,7 @@
 		(fields_autoplaced yes)
 		(uuid "20bdada0-72f4-431c-b72a-e12af484a508")
 		(property "Reference" "LED5"
-			(at 190.5 73.66 0)
+			(at 205.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4855,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 190.5 76.2 0)
+			(at 205.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4863,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 176.53 176.2 0)
+			(at 191.77 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4873,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 176.53 276.2 0)
+			(at 191.77 276.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4883,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 190.5 91.44 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4892,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 176.53 476.2 0)
+			(at 191.77 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4902,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 176.53 576.2 0)
+			(at 191.77 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4912,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 176.53 676.2 0)
+			(at 191.77 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4922,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 176.53 776.2 0)
+			(at 191.77 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +4932,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 176.53 876.2 0)
+			(at 191.77 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +5242,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 233.68 50.8 0)
+		(at 248.92 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4976,7 +5252,7 @@
 		(fields_autoplaced yes)
 		(uuid "46800606-5896-45d8-a971-85a4a47e847a")
 		(property "Reference" "LED3"
-			(at 215.9 43.18 0)
+			(at 231.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5260,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 215.9 45.72 0)
+			(at 231.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 201.93 145.72 0)
+			(at 217.17 145.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 201.93 245.72 0)
+			(at 217.17 245.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5288,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 215.9 60.96 0)
+			(at 231.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5297,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 201.93 445.72 0)
+			(at 217.17 445.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5307,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 201.93 545.72 0)
+			(at 217.17 545.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5317,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 201.93 645.72 0)
+			(at 217.17 645.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 201.93 745.72 0)
+			(at 217.17 745.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5337,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 201.93 845.72 0)
+			(at 217.17 845.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5375,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 39.37 0)
+		(at 241.3 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5108,7 +5384,7 @@
 		(fields_autoplaced yes)
 		(uuid "68dff533-854e-4112-b451-d2ac877f2df7")
 		(property "Reference" "#PWR031"
-			(at 226.06 43.18 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5393,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 34.29 0)
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 39.37 0)
+			(at 241.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 39.37 0)
+			(at 241.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 39.37 0)
+			(at 241.3 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5441,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 233.68 111.76 0)
+		(at 248.92 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5175,7 +5451,7 @@
 		(fields_autoplaced yes)
 		(uuid "69530bd4-fa6f-4edf-a7df-3911272cb942")
 		(property "Reference" "LED8"
-			(at 215.9 104.14 0)
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5459,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 215.9 106.68 0)
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5467,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 201.93 206.68 0)
+			(at 217.17 206.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 201.93 306.68 0)
+			(at 217.17 306.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5487,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 215.9 121.92 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5496,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 201.93 506.68 0)
+			(at 217.17 506.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5506,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 201.93 606.68 0)
+			(at 217.17 606.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5516,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 201.93 706.68 0)
+			(at 217.17 706.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5526,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 201.93 806.68 0)
+			(at 217.17 806.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5536,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 201.93 906.68 0)
+			(at 217.17 906.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5574,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 208.28 40.64 0)
+		(at 223.52 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5308,7 +5584,7 @@
 		(fields_autoplaced yes)
 		(uuid "7edac6d9-c492-4c6f-bf8e-7c328c981539")
 		(property "Reference" "LED1"
-			(at 190.5 33.02 0)
+			(at 205.74 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5592,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 190.5 35.56 0)
+			(at 205.74 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5600,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 176.53 135.56 0)
+			(at 191.77 135.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5610,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 176.53 235.56 0)
+			(at 191.77 235.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 190.5 50.8 0)
+			(at 205.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5629,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 176.53 435.56 0)
+			(at 191.77 435.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5639,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 176.53 535.56 0)
+			(at 191.77 535.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5649,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 176.53 635.56 0)
+			(at 191.77 635.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5659,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 176.53 735.56 0)
+			(at 191.77 735.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5669,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 176.53 835.56 0)
+			(at 191.77 835.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5979,7 @@
 	)
 	(symbol
 		(lib_id "TrashFlash:150353M153300")
-		(at 208.28 101.6 0)
+		(at 223.52 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5713,7 +5989,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba2215d3-c7b5-4de5-8a49-7aef13f138a8")
 		(property "Reference" "LED7"
-			(at 190.5 93.98 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5997,7 @@
 			)
 		)
 		(property "Value" "150353M153300"
-			(at 190.5 96.52 0)
+			(at 205.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" "150353M153300"
-			(at 176.53 196.52 0)
+			(at 191.77 196.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +6015,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 176.53 296.52 0)
+			(at 191.77 296.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 190.5 111.76 0)
+			(at 205.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +6034,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 176.53 496.52 0)
+			(at 191.77 496.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +6044,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 176.53 596.52 0)
+			(at 191.77 596.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +6054,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 176.53 696.52 0)
+			(at 191.77 696.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +6064,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 176.53 796.52 0)
+			(at 191.77 796.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +6074,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 176.53 896.52 0)
+			(at 191.77 896.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

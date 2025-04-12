@@ -2253,7 +2253,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at -8.636 12.192 0)
+			(at 0.254 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2262,7 @@
 			)
 		)
 		(property "Value" "BQ27426YZFR"
-			(at -8.636 10.16 0)
+			(at 0.254 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2291,7 @@
 			)
 		)
 		(property "Description" "Single cell System-Side Battery Fuel (Gas) Gauge w/Pre-programmed Chemistry Profile"
-			(at 2.032 14.478 0)
+			(at 10.922 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,8 +2351,8 @@
 		)
 		(symbol "BQ27426YZFR_1_1"
 			(rectangle
-				(start -8.89 7.62)
-				(end 8.89 -60.96)
+				(start 0 0)
+				(end 17.78 -55.88)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2362,7 +2362,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 5.08 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "SRP"
 					(effects
@@ -2380,7 +2380,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 2.54 0)
+				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "BAT"
 					(effects
@@ -2398,7 +2398,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -50.8 0)
+				(at -5.08 -45.72 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -2416,7 +2416,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -53.34 0)
+				(at -5.08 -48.26 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -2434,7 +2434,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -55.88 0)
+				(at -5.08 -50.8 0)
 				(length 5.08)
 				(name "GPOUT"
 					(effects
@@ -2452,7 +2452,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -58.42 0)
+				(at -5.08 -53.34 0)
 				(length 5.08)
 				(name "BIN"
 					(effects
@@ -2470,7 +2470,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 2.54 180)
+				(at 22.86 -2.54 180)
 				(length 5.08)
 				(name "SRN"
 					(effects
@@ -2488,7 +2488,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -48.26 180)
+				(at 22.86 -43.18 180)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -2506,7 +2506,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -58.42 180)
+				(at 22.86 -53.34 180)
 				(length 5.08)
 				(name "VSS"
 					(effects
