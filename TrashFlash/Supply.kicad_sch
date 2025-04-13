@@ -2245,7 +2245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDM2016X100N"
+		(property "Footprint" "TrashFlash:INDM2016X100N"
 			(at 162.56 193.98 0)
 			(effects
 				(font
@@ -2365,7 +2365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P250X250X80-11N-D"
+		(property "Footprint" "TrashFlash:SON50P250X250X80-11N-D"
 			(at 162.56 131.75 0)
 			(effects
 				(font
@@ -2780,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P250X250X80-11N-D"
+		(property "Footprint" "TrashFlash:SON50P250X250X80-11N-D"
 			(at 162.56 201.6 0)
 			(effects
 				(font
@@ -3537,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDM2016X100N"
+		(property "Footprint" "TrashFlash:INDM2016X100N"
 			(at 162.56 124.13 0)
 			(effects
 				(font

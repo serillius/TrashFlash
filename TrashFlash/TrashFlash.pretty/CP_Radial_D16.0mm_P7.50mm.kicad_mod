@@ -124,15 +124,15 @@
 		(uuid "4d7bfbba-79c9-4319-892b-a0ed2b2890c3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/TrashFlash.pretty/3D/CAP_UBY_18X25_NCH.step"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/CAP_UBY_18x25_NCH_bent.step"
 		(offset
-			(xyz 0 2 9)
+			(xyz 7.5 2 9)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -90 -0 -180)
 		)
 	)
 )

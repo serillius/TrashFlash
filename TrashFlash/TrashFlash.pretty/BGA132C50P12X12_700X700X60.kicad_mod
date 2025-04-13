@@ -1008,7 +1008,7 @@
 		(uuid "36a65a10-d3e8-415a-84ba-1d4e51f89fe0")
 	)
 	(embedded_fonts no)
-	(model "STM32L471QEI6.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/STM32U575QII6Q.stp"
 		(offset
 			(xyz 0 0 0)
 		)

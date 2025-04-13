@@ -215,9 +215,9 @@
 		(uuid "be373afd-c154-4f68-8898-b6b059b7c03f")
 	)
 	(embedded_fonts no)
-	(model "ECS-500-18-33B2-CKM-TR3.stp"
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/ECS-160-8-33B2-CTN-TR3.stp"
 		(offset
-			(xyz 0 0 0.2899999873)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

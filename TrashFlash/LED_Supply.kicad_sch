@@ -3711,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X500X80-25N-D"
+		(property "Footprint" "TrashFlash:QFN50P300X500X80-25N-D"
 			(at 127.254 172.974 0)
 			(effects
 				(font
@@ -3968,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "INDPM5454X310N"
+		(property "Footprint" "TrashFlash:INDPM5454X310N"
 			(at 187.96 131.75 0)
 			(effects
 				(font
@@ -4088,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X500X80-25N-D"
+		(property "Footprint" "TrashFlash:QFN50P300X500X80-25N-D"
 			(at 127.254 82.804 0)
 			(effects
 				(font

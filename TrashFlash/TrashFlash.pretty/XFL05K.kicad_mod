@@ -214,4 +214,15 @@
 		(uuid "0738a95f-fdab-4f43-9f51-9da70ec28661")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TrashFlash.pretty/3D/XFL 5K 3D.STEP"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
