@@ -637,6 +637,10 @@
     [
       "48bd9eb3-181e-486e-b35f-78f4f2bdb3e3",
       "Battery_Management"
+    ],
+    [
+      "f311584d-009c-44fd-b84c-e7888eecb041",
+      "Wireless_Interface"
     ]
   ],
   "text_variables": {}
