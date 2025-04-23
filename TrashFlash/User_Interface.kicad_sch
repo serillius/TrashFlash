@@ -268,12 +268,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TrashFlash:150353M153300"
+		(symbol "TrashFlash:150282M153310"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LED"
-				(at 13.97 7.62 0)
+				(at -3.81 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -281,8 +281,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "150353M153300"
-				(at 13.97 5.08 0)
+			(property "Value" "150282M153310"
+				(at -3.81 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -290,7 +290,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "150353M153300"
+			(property "Footprint" "TrashFlash:150282M153310"
 				(at 31.75 -94.92 0)
 				(effects
 					(font
@@ -311,7 +311,7 @@
 				)
 			)
 			(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-				(at 17.78 -10.16 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -369,10 +369,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "150353M153300_1_1"
+			(symbol "150282M153310_1_1"
 				(rectangle
-					(start 13.97 2.54)
-					(end 21.59 -7.62)
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -383,7 +383,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 0) (xy 15.24 0)
+						(xy -1.016 2.54) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -395,7 +395,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 -1.016) (xy 16.764 1.016) (xy 18.796 0) (xy 16.764 -1.016)
+						(xy -1.016 1.524) (xy -1.016 3.556) (xy 1.016 2.54) (xy -1.016 1.524)
 					)
 					(stroke
 						(width 0)
@@ -408,7 +408,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 -2.54) (xy 15.24 -2.54)
+						(xy -1.016 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -420,7 +420,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 -3.556) (xy 16.764 -1.524) (xy 18.796 -2.54) (xy 16.764 -3.556)
+						(xy -1.016 -1.016) (xy -1.016 1.016) (xy 1.016 0) (xy -1.016 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -433,7 +433,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 -5.08) (xy 15.24 -5.08)
+						(xy -1.016 -2.54) (xy -2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -445,7 +445,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.764 -6.096) (xy 16.764 -4.064) (xy 18.796 -5.08) (xy 16.764 -6.096)
+						(xy -1.016 -3.556) (xy -1.016 -1.524) (xy 1.016 -2.54) (xy -1.016 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -458,7 +458,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 1.016) (xy 18.796 -1.016)
+						(xy 1.016 3.556) (xy 1.016 1.524)
 					)
 					(stroke
 						(width 0)
@@ -470,7 +470,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 0) (xy 20.32 0)
+						(xy 1.016 2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -482,7 +482,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 -1.524) (xy 18.796 -3.556)
+						(xy 1.016 1.016) (xy 1.016 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -494,7 +494,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 -2.54) (xy 20.32 -2.54)
+						(xy 1.016 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -506,7 +506,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 -4.064) (xy 18.796 -6.096)
+						(xy 1.016 -1.524) (xy 1.016 -3.556)
 					)
 					(stroke
 						(width 0)
@@ -518,7 +518,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.796 -5.08) (xy 20.32 -5.08)
+						(xy 1.016 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -529,7 +529,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 0)
+					(at -7.62 2.54 0)
 					(length 5.08)
 					(name "A_RED"
 						(effects
@@ -538,7 +538,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,27 +547,9 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 0)
+					(at -7.62 0 0)
 					(length 5.08)
 					(name "A_GREEN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 0)
-					(length 5.08)
-					(name "A_BLUE"
 						(effects
 							(font
 								(size 0 0)
@@ -583,27 +565,9 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at -7.62 -2.54 0)
 					(length 5.08)
-					(name "K_RED"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "K_GREEN"
+					(name "A_BLUE"
 						(effects
 							(font
 								(size 0 0)
@@ -619,7 +583,43 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -5.08 180)
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "K_RED"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "K_GREEN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
 					(length 5.08)
 					(name "K_BLUE"
 						(effects
@@ -628,7 +628,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2515,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 151.13) (xy 142.875 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f125bb9-b4d5-4879-9216-d7647b402855")
+	)
+	(wire
+		(pts
 			(xy 213.36 81.28) (xy 215.9 81.28)
 		)
 		(stroke
@@ -2535,6 +2545,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 146.05) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16353db0-7401-4acd-9d37-b95e4746766b")
+	)
+	(wire
+		(pts
 			(xy 238.76 71.12) (xy 241.3 71.12)
 		)
 		(stroke
@@ -2552,6 +2572,16 @@
 			(type default)
 		)
 		(uuid "18e79ccb-f5bf-4990-a747-4be3d40e161c")
+	)
+	(wire
+		(pts
+			(xy 167.64 146.05) (xy 167.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6b5050-3628-48ca-9a58-ba9fc74c46a4")
 	)
 	(wire
 		(pts
@@ -2915,6 +2945,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 156.21) (xy 142.875 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c60fcc5-5da2-4db0-bc78-2de53fd576f0")
+	)
+	(wire
+		(pts
 			(xy 193.04 72.39) (xy 217.17 72.39)
 		)
 		(stroke
@@ -2962,6 +3002,16 @@
 			(type default)
 		)
 		(uuid "6631ce94-e12d-4b6e-b533-4097f4561ff6")
+	)
+	(wire
+		(pts
+			(xy 142.875 153.67) (xy 139.7 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674512a3-dba7-4d4f-ad57-a181a297000e")
 	)
 	(wire
 		(pts
@@ -3125,6 +3175,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 151.13) (xy 162.56 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879272a1-75f4-4d30-8361-31979df62a75")
+	)
+	(wire
+		(pts
 			(xy 114.3 50.8) (xy 114.3 63.5)
 		)
 		(stroke
@@ -3272,6 +3332,26 @@
 			(type default)
 		)
 		(uuid "9f9c2945-9ed6-4fa5-b45b-941815427785")
+	)
+	(wire
+		(pts
+			(xy 167.64 156.21) (xy 167.64 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0368c83-dd7e-4c96-b027-df2f8dbd39b3")
+	)
+	(wire
+		(pts
+			(xy 162.56 156.21) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04c95ad-1c63-41e8-8488-2717065fd5dc")
 	)
 	(wire
 		(pts
@@ -3825,6 +3905,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 153.67) (xy 139.7 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe3cb32-cb1b-41bb-b850-4f875b1f8732")
+	)
+	(wire
+		(pts
 			(xy 215.9 81.28) (xy 241.3 81.28)
 		)
 		(stroke
@@ -4113,6 +4203,17 @@
 		)
 		(uuid "fdbc8e38-72a3-4479-9e77-ae41b8baff75")
 	)
+	(hierarchical_label "PUSH_BUTTON"
+		(shape output)
+		(at 76.2 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "491a6540-7a18-4fea-ab82-45177e880e99")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 76.2 63.5 180)
@@ -4123,6 +4224,17 @@
 			(justify right)
 		)
 		(uuid "691c8586-4dd3-424d-aeda-e2b1c1d3d940")
+	)
+	(hierarchical_label "ENCODER_A"
+		(shape output)
+		(at 76.2 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a1f5c44-990e-4c85-b98c-6cd4f6f4c80d")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -4146,284 +4258,28 @@
 		)
 		(uuid "98501a61-7bed-4c57-9197-8aa40f83d1cc")
 	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 248.92 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "004a00dd-e39c-41ce-a32a-6d4c0ea62ed5")
-		(property "Reference" "LED4"
-			(at 231.14 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "ENCODER_B"
+		(shape output)
+		(at 76.2 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "150353M153300"
-			(at 231.14 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 217.17 166.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 217.17 266.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 217.17 466.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 217.17 566.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 217.17 666.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 766.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 217.17 866.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "d9c4d323-3650-4c77-b291-871e6b1164cf")
-		)
-		(pin "5"
-			(uuid "1c37c1fc-a272-4501-9a63-1468d49b4d3d")
-		)
-		(pin "2"
-			(uuid "7e5107d3-9479-440e-ab35-49464c9c7d2f")
-		)
-		(pin "1"
-			(uuid "8558bd1c-54d2-45ba-a744-7d2239e1f629")
-		)
-		(pin "4"
-			(uuid "0d546896-f844-462d-ae0f-a812464fafe4")
-		)
-		(pin "3"
-			(uuid "ec45c5c9-570f-460b-b035-bee75d19f4f0")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 223.52 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0520d209-5683-40f5-802a-92a03cd370b6")
-		(property "Reference" "LED2"
-			(at 205.74 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150353M153300"
-			(at 205.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 191.77 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 191.77 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 205.74 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 191.77 455.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 191.77 555.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 191.77 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 191.77 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 191.77 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2725b115-af86-4f17-bc4b-fddcda5f9231")
-		)
-		(pin "6"
-			(uuid "c430887c-f53b-4747-a73d-89e6c46c4b6e")
-		)
-		(pin "1"
-			(uuid "2c1f6756-7e82-4407-8cb8-1e8ad160bcad")
-		)
-		(pin "5"
-			(uuid "9df3792f-ba3d-4295-9c24-2731b80f70d6")
-		)
-		(pin "3"
-			(uuid "c9d14b1c-0384-4b4c-8c11-9b7a1b91d0e4")
-		)
-		(pin "4"
-			(uuid "aa993fd4-b7ee-44f9-8285-99a9e451706a")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e1ac7461-17e2-4644-8f54-a80ca16f92cc")
 	)
 	(symbol
 		(lib_id "TrashFlash:ec11e09244aq")
-		(at 48.26 143.51 0)
+		(at 142.875 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "171f82ff-9c7a-4443-8037-6ba3f8958e0a")
-		(property "Reference" "S1"
-			(at 58.1025 135.89 0)
+		(property "Reference" "S601"
+			(at 152.908 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,15 +4287,15 @@
 			)
 		)
 		(property "Value" "ec11e09244aq"
-			(at 58.1025 138.43 0)
+			(at 152.908 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:ec11e09244aq"
-			(at 48.26 143.51 0)
+		(property "Footprint" "ec11e09244aq"
+			(at 142.875 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/alps_alps-s-a0008379064-1-1733314.pdf"
-			(at 48.26 143.51 0)
+			(at 142.875 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 143.51 0)
+			(at 142.875 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4339,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "S1")
+					(reference "S601")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c76d054-af45-4477-b69b-9a1b2100f138")
-		(property "Reference" "IC7"
+		(property "Reference" "IC601"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -4515,7 +4371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:QFN40P400X400X100-33N-D"
+		(property "Footprint" "QFN40P400X400X100-33N-D"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -4696,273 +4552,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "IC7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 248.92 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d930553-37d7-4cfb-ac94-274efe0bfd84")
-		(property "Reference" "LED6"
-			(at 231.14 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150353M153300"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 217.17 186.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 217.17 286.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 231.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 217.17 486.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 217.17 586.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 217.17 686.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 786.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 217.17 886.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "482f832a-aaaa-436d-93b1-a18427e78295")
-		)
-		(pin "5"
-			(uuid "b31017e1-33e7-4590-8f92-66d39c6d306e")
-		)
-		(pin "2"
-			(uuid "33483841-31ff-4d50-b4c8-f67a637bbc06")
-		)
-		(pin "1"
-			(uuid "0ce9b879-f775-4c7a-bf88-1146168fc832")
-		)
-		(pin "4"
-			(uuid "10284d11-b867-4c76-bae0-5e89d8add49e")
-		)
-		(pin "3"
-			(uuid "bcb2906b-48cb-4dc8-a930-5ec1c118150c")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 223.52 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20bdada0-72f4-431c-b72a-e12af484a508")
-		(property "Reference" "LED5"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150353M153300"
-			(at 205.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 191.77 176.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 191.77 276.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 205.74 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 191.77 476.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 191.77 576.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 191.77 676.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 191.77 776.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 191.77 876.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ebb5c181-2cdb-4c66-a3a3-552a1cbe4154")
-		)
-		(pin "6"
-			(uuid "f1839f5e-fda5-4858-b5e7-2add706d6589")
-		)
-		(pin "1"
-			(uuid "45d17946-22f1-41a6-8130-f6526abf6d64")
-		)
-		(pin "5"
-			(uuid "806f8e41-6d8f-4075-ab8b-922130bc87a7")
-		)
-		(pin "3"
-			(uuid "b95a1082-3193-4cd7-841e-c0da16920b5e")
-		)
-		(pin "4"
-			(uuid "1f326cc1-daf8-4997-b646-02c69d1a5836")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED5")
+					(reference "IC601")
 					(unit 1)
 				)
 			)
@@ -4978,7 +4568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20cec3be-11da-4791-aedb-930cd82fd53a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0606"
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -5028,7 +4618,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR038")
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -5044,7 +4634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afe647c-5606-43e7-9bcc-28720b695d52")
-		(property "Reference" "R28"
+		(property "Reference" "R601"
 			(at 106.68 45.7199 0)
 			(effects
 				(font
@@ -5098,7 +4688,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "R28")
+					(reference "R601")
 					(unit 1)
 				)
 			)
@@ -5114,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365cabb3-05a6-417a-b235-5d66d4f84a19")
-		(property "Reference" "R29"
+		(property "Reference" "R603"
 			(at 116.84 110.4899 0)
 			(effects
 				(font
@@ -5168,7 +4758,140 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "R29")
+					(reference "R603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 231.14 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "412b8bbb-323d-43df-b68e-354d40d51045")
+		(property "Reference" "LED606"
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 199.39 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 199.39 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 231.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 199.39 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 199.39 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 199.39 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 199.39 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 199.39 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9708ff33-7650-4b9f-9784-ae4013239aa6")
+		)
+		(pin "5"
+			(uuid "0e5519aa-451a-4a64-925d-f4615adc34eb")
+		)
+		(pin "1"
+			(uuid "66e8e8b5-d512-4d4b-a07e-a9bb2492934c")
+		)
+		(pin "6"
+			(uuid "e039129d-bf5d-4d83-98d4-8713c80f6fa5")
+		)
+		(pin "4"
+			(uuid "9455ac73-0814-401d-b32b-f7676518e30e")
+		)
+		(pin "2"
+			(uuid "4bb0a9da-13c1-4b3e-9f31-00053ade25ce")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED606")
 					(unit 1)
 				)
 			)
@@ -5184,7 +4907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4372a63c-b47b-45ab-94c4-eebabb0c0ee4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0605"
 			(at 132.08 92.71 0)
 			(effects
 				(font
@@ -5234,15 +4957,15 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR037")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 248.92 50.8 0)
+		(lib_id "TrashFlash:150282M153310")
+		(at 231.14 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5250,25 +4973,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46800606-5896-45d8-a971-85a4a47e847a")
-		(property "Reference" "LED3"
-			(at 231.14 43.18 0)
+		(uuid "524ac34d-26d6-42f3-97d2-2cca76af2739")
+		(property "Reference" "LED608"
+			(at 231.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150353M153300"
-			(at 231.14 45.72 0)
+		(property "Value" "150282M153310"
+			(at 231.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 217.17 145.72 0)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 199.39 209.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5001,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 217.17 245.72 0)
+			(at 199.39 309.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5011,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 231.14 60.96 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +5020,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 217.17 445.72 0)
+			(at 199.39 509.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5030,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 217.17 545.72 0)
+			(at 199.39 609.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5040,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 217.17 645.72 0)
+			(at 199.39 709.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5050,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 745.72 0)
+			(at 199.39 809.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5060,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 217.17 845.72 0)
+			(at 199.39 909.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,28 +5069,28 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "3b745db3-f188-4ecc-af6b-276900eb3724")
+		(pin "3"
+			(uuid "063c11f4-a308-4beb-8b12-6f1bc0e909f2")
 		)
 		(pin "5"
-			(uuid "dbc00261-07cc-49d3-8c5e-2c2d30eb7f95")
-		)
-		(pin "2"
-			(uuid "8506ef4e-976a-4e97-851e-7325b9823d7f")
+			(uuid "e4f77097-8a70-4007-9b92-7ef4796d197b")
 		)
 		(pin "1"
-			(uuid "d8cc666a-a900-4ee8-91f8-328efb6b555d")
+			(uuid "83de6454-65b5-4f1a-a067-e794a514a5b3")
+		)
+		(pin "6"
+			(uuid "d6228a32-e3e9-46cf-840a-4599c44b1ba8")
 		)
 		(pin "4"
-			(uuid "e39120c8-acb4-42d1-8446-e20dd6c6c5e8")
+			(uuid "d7e17f8e-d83e-49a5-ad80-af2f2dda8d95")
 		)
-		(pin "3"
-			(uuid "7ff6460c-0572-41d8-8a72-5aab4b48e933")
+		(pin "2"
+			(uuid "39863c24-5c9c-445f-951e-47b82a51a2dd")
 		)
 		(instances
-			(project ""
+			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED3")
+					(reference "LED608")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68dff533-854e-4112-b451-d2ac877f2df7")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0603"
 			(at 241.3 43.18 0)
 			(effects
 				(font
@@ -5433,273 +5156,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 248.92 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69530bd4-fa6f-4edf-a7df-3911272cb942")
-		(property "Reference" "LED8"
-			(at 231.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150353M153300"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 217.17 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 217.17 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 231.14 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 217.17 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 217.17 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 217.17 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 217.17 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 217.17 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "41dab770-519f-44ab-b000-a42c30d7bd80")
-		)
-		(pin "5"
-			(uuid "e5dd8938-72e9-4e94-a18b-117b29c2aa58")
-		)
-		(pin "2"
-			(uuid "0734bf41-d9d4-4290-9d17-c4e67e3314cf")
-		)
-		(pin "1"
-			(uuid "1f14410b-7f59-40f4-ad07-7c54188fdc8b")
-		)
-		(pin "4"
-			(uuid "b386240f-8e08-4639-96bf-677f21b643c5")
-		)
-		(pin "3"
-			(uuid "ad56052c-e597-4bbf-b9aa-23cc09e69305")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 223.52 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7edac6d9-c492-4c6f-bf8e-7c328c981539")
-		(property "Reference" "LED1"
-			(at 205.74 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150353M153300"
-			(at 205.74 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 191.77 135.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 191.77 235.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 205.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.9"
-			(at 191.77 435.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150353M153300"
-			(at 191.77 535.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 191.77 635.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 191.77 735.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 191.77 835.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0afe8c81-6ad4-458e-a862-e3b11b4da06c")
-		)
-		(pin "6"
-			(uuid "736f28f7-0928-42d1-8574-9c4e6cfacdbd")
-		)
-		(pin "1"
-			(uuid "394f6c70-dbd7-4477-82d4-179f3b4eae1d")
-		)
-		(pin "5"
-			(uuid "c78ea868-f5e1-44ba-a516-d8e8e327a977")
-		)
-		(pin "3"
-			(uuid "b91357b2-28fc-4f20-a9ac-6f1189185ac5")
-		)
-		(pin "4"
-			(uuid "4dc51a9b-0dd9-4515-8022-77c06fe4f63d")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED1")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -5715,7 +5172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fcab7cf-dbb5-4a1b-91ab-43dc755d1381")
-		(property "Reference" "C19"
+		(property "Reference" "C601"
 			(at 130.81 45.7199 0)
 			(effects
 				(font
@@ -5769,7 +5226,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "C19")
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874726ce-d82a-42b0-b1c5-9d57846a6cf2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0601"
 			(at 109.22 43.18 0)
 			(effects
 				(font
@@ -5835,7 +5292,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR035")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d775e51-6005-467d-acb0-ba801bd89cb3")
-		(property "Reference" "R27"
+		(property "Reference" "R602"
 			(at 116.84 45.7199 0)
 			(effects
 				(font
@@ -5905,7 +5362,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "R27")
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -5921,7 +5378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a64b2e89-d0a2-4468-a766-4edec6f24c4c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0602"
 			(at 127 43.18 0)
 			(effects
 				(font
@@ -5971,15 +5428,15 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR036")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TrashFlash:150353M153300")
-		(at 223.52 101.6 0)
+		(lib_id "TrashFlash:150282M153310")
+		(at 231.14 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5987,25 +5444,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba2215d3-c7b5-4de5-8a49-7aef13f138a8")
-		(property "Reference" "LED7"
-			(at 205.74 93.98 0)
+		(uuid "adb3bb64-1c60-4739-84db-19f9d7a2228d")
+		(property "Reference" "LED602"
+			(at 231.14 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150353M153300"
-			(at 205.74 96.52 0)
+		(property "Value" "150282M153310"
+			(at 231.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:150353M153300"
-			(at 191.77 196.52 0)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 199.39 148.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5472,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
-			(at 191.77 296.52 0)
+			(at 199.39 248.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +5482,7 @@
 			)
 		)
 		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
-			(at 205.74 111.76 0)
+			(at 231.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5491,7 @@
 			)
 		)
 		(property "Height" "2.9"
-			(at 191.77 496.52 0)
+			(at 199.39 448.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +5501,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150353M153300"
-			(at 191.77 596.52 0)
+			(at 199.39 548.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +5511,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
-			(at 191.77 696.52 0)
+			(at 199.39 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +5521,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 191.77 796.52 0)
+			(at 199.39 748.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5531,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150353M153300"
-			(at 191.77 896.52 0)
+			(at 199.39 848.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,28 +5540,28 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5b387ad8-d002-4681-b4f9-72f4ea6b9963")
-		)
-		(pin "6"
-			(uuid "6fffb065-21c7-44cc-8482-b5f94e5aba8f")
-		)
-		(pin "1"
-			(uuid "e82067eb-0da2-4d7a-a6e4-d66da153ce5f")
+		(pin "3"
+			(uuid "a4854dab-9006-4d1a-a343-157e65e34e86")
 		)
 		(pin "5"
-			(uuid "dab513a5-539a-4f35-a5a8-b3543924435f")
+			(uuid "f4cb5905-626b-4c45-9a19-490113528c7a")
 		)
-		(pin "3"
-			(uuid "b26b1ab5-2e14-475c-9010-dc5a1e7a0dd7")
+		(pin "1"
+			(uuid "d6b227bc-3e67-4d10-b9c4-6302acbc8fda")
+		)
+		(pin "6"
+			(uuid "e56496f5-f144-40f6-ac20-43e9593a6e4a")
 		)
 		(pin "4"
-			(uuid "5d6861fc-74a1-44c5-b73a-1ac93c9d75f0")
+			(uuid "ad72ca1c-7363-445c-a05f-6c52f9fd8e5d")
+		)
+		(pin "2"
+			(uuid "6b9bc68e-bd38-435e-88ed-e96a40d20da9")
 		)
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "LED7")
+					(reference "LED602")
 					(unit 1)
 				)
 			)
@@ -6120,7 +5577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb70f90c-e343-4935-9566-819cc8182db8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0604"
 			(at 127 59.69 0)
 			(effects
 				(font
@@ -6170,7 +5627,605 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "#PWR034")
+					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbad7091-0ad8-4875-a4f9-4ccc4a6fa7fd")
+		(property "Reference" "#PWR0607"
+			(at 139.7 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c791ea53-3e93-4a07-9916-56079f868807")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 205.74 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd80968-d2b7-4565-b720-9a72d1af3b1d")
+		(property "Reference" "LED607"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 205.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 173.99 199.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 173.99 299.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 173.99 499.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 173.99 599.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 173.99 699.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 173.99 799.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 173.99 899.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "78fad71b-e969-4843-a096-bc23ce7ecf24")
+		)
+		(pin "5"
+			(uuid "499d1336-1254-4ca8-9e61-de4138dd4065")
+		)
+		(pin "1"
+			(uuid "61c31bf8-6e55-424b-8ee8-6992f4075cd0")
+		)
+		(pin "6"
+			(uuid "266ba517-a7dc-4c52-99ae-0beb14f1cb70")
+		)
+		(pin "4"
+			(uuid "8b6d89d5-28d8-4c6e-94f7-62722251ee1b")
+		)
+		(pin "2"
+			(uuid "96271eed-8292-439a-a31d-7359516f034d")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 205.74 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce24babb-bd75-40f7-b049-5965568985d2")
+		(property "Reference" "LED605"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 173.99 178.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 173.99 278.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 173.99 478.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 173.99 578.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 173.99 678.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 173.99 778.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 173.99 878.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a7fa53b9-dae0-4c81-abbf-36f8a1243e13")
+		)
+		(pin "5"
+			(uuid "bbac5eaf-3c0b-467d-a11f-590fd3bd14a8")
+		)
+		(pin "1"
+			(uuid "6178e511-3648-4592-a1f0-253903900452")
+		)
+		(pin "6"
+			(uuid "1073086f-151d-4306-bc5d-3a1f62a7209a")
+		)
+		(pin "4"
+			(uuid "b1371d24-dbd9-4f38-87a0-c0b8973ac586")
+		)
+		(pin "2"
+			(uuid "267e1fc9-a9fd-4a96-8090-5f6f7b375d1e")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 205.74 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0277000-b0ad-4f50-8771-827bfe0c2338")
+		(property "Reference" "LED603"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 205.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 173.99 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 173.99 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 205.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 173.99 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 173.99 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 173.99 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 173.99 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 173.99 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a597eab7-50ab-4a07-8702-7fbc3b49bffd")
+		)
+		(pin "5"
+			(uuid "6f78a5e1-677f-4f7c-a56b-563533ec520b")
+		)
+		(pin "1"
+			(uuid "7c1ee212-7d13-4484-a4e5-72eb2869f551")
+		)
+		(pin "6"
+			(uuid "97b9ab0d-47dd-4f01-8181-640ddd28cb52")
+		)
+		(pin "4"
+			(uuid "5960c334-c916-4c4e-a173-071b29b2ac5f")
+		)
+		(pin "2"
+			(uuid "c408f0a9-8b97-4a9f-bde1-5fc17d32496e")
+		)
+		(instances
+			(project ""
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 231.14 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2cdadb3-bc57-475e-9195-8577171272aa")
+		(property "Reference" "LED604"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 199.39 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 199.39 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 199.39 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 199.39 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 199.39 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 199.39 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 199.39 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d3b60a8-212d-4082-8b6f-6bc93bceb765")
+		)
+		(pin "5"
+			(uuid "4d27f9ad-0fd2-4109-b7bb-934485a2ca80")
+		)
+		(pin "1"
+			(uuid "ac5a2438-81ee-42e1-9430-153e40484113")
+		)
+		(pin "6"
+			(uuid "e3a9698b-7f6f-429f-b8c3-64c2b2fab004")
+		)
+		(pin "4"
+			(uuid "6a248957-5185-41d8-a828-f3d6f2b6e4ee")
+		)
+		(pin "2"
+			(uuid "cd2071e6-3043-4bad-b74c-a480beff2452")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED604")
 					(unit 1)
 				)
 			)
@@ -6186,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63bb63c-7f2e-4659-b875-b0087951dad2")
-		(property "Reference" "C20"
+		(property "Reference" "C602"
 			(at 130.81 110.4899 0)
 			(effects
 				(font
@@ -6240,7 +6295,206 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
-					(reference "C20")
+					(reference "C602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7faa1fb-8434-4223-a6bc-07eabea6aa33")
+		(property "Reference" "#PWR0608"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a604fc1-4978-48b9-95c8-feb18e4af90e")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TrashFlash:150282M153310")
+		(at 205.74 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9bdf72-f6b1-48b8-ad8f-effa3882daa4")
+		(property "Reference" "LED601"
+			(at 205.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150282M153310"
+			(at 205.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TrashFlash:150282M153310"
+			(at 173.99 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150353M153300.pdf"
+			(at 173.99 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD WL-SFTD SMD Top Diff SMD 3535 RGB"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.9"
+			(at 173.99 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150353M153300"
+			(at 173.99 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150353M153300?qs=fAHHVMwC%252BbjWUoA73sYHEw%3D%3D"
+			(at 173.99 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 173.99 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150353M153300"
+			(at 173.99 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da0d6fa9-fac1-40ad-a913-a845e66305d4")
+		)
+		(pin "5"
+			(uuid "e56134c1-c92d-4f96-aaca-a76d868a9249")
+		)
+		(pin "1"
+			(uuid "a9e25531-f7b4-43ae-bb61-fcd01c0f87b1")
+		)
+		(pin "6"
+			(uuid "c94ac493-449b-4ccb-92ae-bfef848a5126")
+		)
+		(pin "4"
+			(uuid "c0ceb89b-9799-40ad-982f-e99945c7d6a6")
+		)
+		(pin "2"
+			(uuid "660b318e-75fe-4187-a1cb-febdf80aa0db")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/fa02bcf9-bdc6-4000-b431-14bacede6ea5"
+					(reference "LED601")
 					(unit 1)
 				)
 			)

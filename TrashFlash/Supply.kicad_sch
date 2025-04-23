@@ -1251,19 +1251,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "HI: 3.3 V\nLO: 1.8 V\n"
-		(exclude_from_sim no)
-		(at 90.424 54.61 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d62aa3d-1eb3-489c-9691-55b066325972")
-	)
-	(text "1.8 V : RCFG1 = 0.00 kOhm, RCFG2 = 511 Ohm   (100 mA Iin)\n2.5 V : RCFG1 = 6.49 kOhm, RCFG2 = 511 Ohm   (100 mA Iin)\n3.3 V : RCFG1 = 36.5 kOhm, RCFG2 = 511 Ohm   (100 mA Iin)\n5.0 V : RCFG1 = 36.5 kOhm, RCFG2 = 8.25 kOhm (unlimited Iin)"
+	(text "2.5 V : RCFG1 = 6.49 kOhm, RCFG2 = 511 Ohm   (100 mA Iin)\n\n5.0 V : RCFG1 = 36.5 kOhm, RCFG2 = 8.25 kOhm (unlimited Iin)"
 		(exclude_from_sim no)
 		(at 195.58 95.25 0)
 		(effects
@@ -1316,6 +1304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2defdd8-6ffc-4b6f-827a-8b36b17f4d19")
+	)
+	(junction
+		(at 127 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6413610-570b-4b80-aa47-cc61fe528336")
 	)
 	(junction
 		(at 114.3 44.45)
@@ -1383,16 +1377,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 68.58) (xy 163.83 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ef86c2-a000-4033-86ff-1256b17e79ff")
-	)
-	(wire
-		(pts
 			(xy 173.99 139.7) (xy 173.99 138.43)
 		)
 		(stroke
@@ -1433,13 +1417,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 130.81 57.15)
+			(xy 130.81 57.15) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13d6dd80-10ed-4eaa-a802-f1f5f4021d01")
+		(uuid "15e3f19e-97a1-4e5c-a3b9-c7e78627954f")
 	)
 	(wire
 		(pts
@@ -1603,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 59.69) (xy 163.83 60.96)
+			(xy 163.83 59.69) (xy 163.83 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1770,6 +1754,16 @@
 			(type default)
 		)
 		(uuid "858a4b26-1081-4ab2-b718-eaefe5b60d95")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b5e75e-e1be-4971-8960-681e8e5644a7")
 	)
 	(wire
 		(pts
@@ -2131,17 +2125,6 @@
 		)
 		(uuid "ef967f48-8dab-4147-9072-dd7f17b84ff1")
 	)
-	(hierarchical_label "SELECT_VDD"
-		(shape input)
-		(at 52.07 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ea4fbc7-c74f-422e-88e2-760d34d92a8b")
-	)
 	(hierarchical_label "EN_5V_REG"
 		(shape input)
 		(at 52.07 124.46 180)
@@ -2163,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc9babb-018f-468e-a454-f480db51cbcd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0506"
 			(at 195.58 83.82 0)
 			(effects
 				(font
@@ -2213,7 +2196,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR023")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -2229,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11daacbf-b10b-45c8-869f-c826e2674358")
-		(property "Reference" "L5"
+		(property "Reference" "L502"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -2245,7 +2228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:INDM2016X100N"
+		(property "Footprint" "INDM2016X100N"
 			(at 162.56 193.98 0)
 			(effects
 				(font
@@ -2333,7 +2316,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "L5")
+					(reference "L502")
 					(unit 1)
 				)
 			)
@@ -2349,7 +2332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c64fa51-2ae1-4509-b284-0e06af903f13")
-		(property "Reference" "IC5"
+		(property "Reference" "IC501"
 			(at 145.415 31.75 0)
 			(effects
 				(font
@@ -2365,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SON50P250X250X80-11N-D"
+		(property "Footprint" "SON50P250X250X80-11N-D"
 			(at 162.56 131.75 0)
 			(effects
 				(font
@@ -2480,7 +2463,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "IC5")
+					(reference "IC501")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2463c28e-9e8a-44c8-b4d5-f909900bc4cd")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0512"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -2546,7 +2529,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR032")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -2562,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27285167-c271-4492-9280-3743d6868467")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0511"
 			(at 173.99 153.67 0)
 			(effects
 				(font
@@ -2612,7 +2595,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR030")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293c2a8b-52fc-4ed1-a41c-91bcea5b7871")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0508"
 			(at 195.58 116.84 0)
 			(effects
 				(font
@@ -2678,7 +2661,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR027")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -2694,7 +2677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "445f5fbf-04c6-483e-b14e-04ea19fb7269")
-		(property "Reference" "R22"
+		(property "Reference" "R501"
 			(at 176.53 63.4999 0)
 			(effects
 				(font
@@ -2748,7 +2731,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R22")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -2764,7 +2747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c20e32-538e-43e7-967d-ea85f82b23f7")
-		(property "Reference" "IC6"
+		(property "Reference" "IC502"
 			(at 145.415 101.6 0)
 			(effects
 				(font
@@ -2780,7 +2763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:SON50P250X250X80-11N-D"
+		(property "Footprint" "SON50P250X250X80-11N-D"
 			(at 162.56 201.6 0)
 			(effects
 				(font
@@ -2895,7 +2878,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "IC6")
+					(reference "IC502")
 					(unit 1)
 				)
 			)
@@ -2911,7 +2894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb4dae6-7212-4e82-971a-93b2457b4344")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0510"
 			(at 127 153.67 0)
 			(effects
 				(font
@@ -2961,7 +2944,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR029")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -2977,7 +2960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9e65c7-b6c0-4e8e-af66-fb7345eea7ed")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0502"
 			(at 195.58 46.99 0)
 			(effects
 				(font
@@ -3027,7 +3010,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR052")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -3043,7 +3026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b18078-2381-4208-b022-6975a1dbf828")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0507"
 			(at 124.46 107.442 0)
 			(effects
 				(font
@@ -3093,7 +3076,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR025")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -3109,7 +3092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88c0f497-9be4-4b7f-a9c2-772999020f98")
-		(property "Reference" "C16"
+		(property "Reference" "C502"
 			(at 199.39 48.2599 0)
 			(effects
 				(font
@@ -3163,7 +3146,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "C16")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -3179,7 +3162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d3d1fbe-fb3d-4d9c-afa6-a163f201a0a8")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0505"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -3229,7 +3212,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR026")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c582b9-f095-47a2-9140-2a94347318bc")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0509"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -3295,7 +3278,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR028")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9efded8f-32d4-4ae7-912a-c879c878c4dd")
-		(property "Reference" "R23"
+		(property "Reference" "R502"
 			(at 186.69 63.4999 0)
 			(effects
 				(font
@@ -3320,7 +3303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36.5k"
+		(property "Value" "6.49k"
 			(at 186.69 66.0399 0)
 			(effects
 				(font
@@ -3365,7 +3348,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R23")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -3381,7 +3364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9658efa-8e17-45ce-af5a-9e59ef82dc83")
-		(property "Reference" "C15"
+		(property "Reference" "C501"
 			(at 118.11 48.2599 0)
 			(effects
 				(font
@@ -3435,7 +3418,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "C15")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -3451,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae29ce0a-4d75-4721-b130-abe7ba103b06")
-		(property "Reference" "R25"
+		(property "Reference" "R504"
 			(at 176.53 133.3499 0)
 			(effects
 				(font
@@ -3505,7 +3488,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R25")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -3521,7 +3504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9a86aff-d1a5-47c2-94f2-d91509118b70")
-		(property "Reference" "L4"
+		(property "Reference" "L501"
 			(at 146.05 21.59 0)
 			(effects
 				(font
@@ -3537,7 +3520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TrashFlash:INDM2016X100N"
+		(property "Footprint" "INDM2016X100N"
 			(at 162.56 124.13 0)
 			(effects
 				(font
@@ -3625,7 +3608,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "L4")
+					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -3641,7 +3624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa86bda-4c9f-4273-865d-bd3fc1c5e706")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0503"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -3691,7 +3674,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR021")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1655b38-e31c-4b35-bdba-895f41520fa4")
-		(property "Reference" "C18"
+		(property "Reference" "C504"
 			(at 199.39 119.3799 0)
 			(effects
 				(font
@@ -3761,77 +3744,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf830f0f-0c89-47fd-83b8-ae7a3b9f9a24")
-		(property "Reference" "R21"
-			(at 166.37 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 166.37 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.052 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3ce82db-a132-4c45-9bbc-528f36ad97a4")
-		)
-		(pin "1"
-			(uuid "c67e2b3b-a252-44c8-91f7-a07a2a4c23c5")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R21")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -3847,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45a1fa5-5f0c-44ac-a3db-b757034e9783")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0504"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -3897,7 +3810,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR022")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -3913,7 +3826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6d2d111-3151-466f-914c-c8d9f142071a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0501"
 			(at 118.11 37.592 0)
 			(effects
 				(font
@@ -3963,7 +3876,7 @@
 		(instances
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "#PWR024")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee17d510-4aa6-4a9e-a17c-84a6db8e3b32")
-		(property "Reference" "R26"
+		(property "Reference" "R505"
 			(at 186.69 133.3499 0)
 			(effects
 				(font
@@ -4033,7 +3946,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R26")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -4049,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fddaecf5-84b9-4ecc-b690-273113bed3fd")
-		(property "Reference" "C17"
+		(property "Reference" "C503"
 			(at 118.11 118.1099 0)
 			(effects
 				(font
@@ -4103,7 +4016,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "C17")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -4119,7 +4032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feaf7c6e-9896-4442-84d6-8a27b3da916d")
-		(property "Reference" "R24"
+		(property "Reference" "R503"
 			(at 166.37 133.3499 0)
 			(effects
 				(font
@@ -4173,7 +4086,7 @@
 		(instances
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/80bea837-454b-4907-9606-e09ea92f0071"
-					(reference "R24")
+					(reference "R503")
 					(unit 1)
 				)
 			)
