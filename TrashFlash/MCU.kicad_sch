@@ -4808,6 +4808,17 @@
 		)
 		(uuid "4a26a46f-6d5e-451e-b86f-b79de9a51dcb")
 	)
+	(hierarchical_label "T_JTDO{slash}T_SWO"
+		(shape output)
+		(at 232.41 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b04f905-78e3-48e7-9699-f5d1ecc34fbe")
+	)
 	(hierarchical_label "EN_LED_RANGE_20A"
 		(shape output)
 		(at 232.41 45.72 0)
@@ -4863,6 +4874,17 @@
 		)
 		(uuid "76ae1186-f838-4353-9d8c-115a198b8616")
 	)
+	(hierarchical_label "T_VCP_RX"
+		(shape input)
+		(at 232.41 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b8055fa-936f-45a5-8f8d-01bcbfe3151e")
+	)
 	(hierarchical_label "SDA_USER_INTERFACE"
 		(shape bidirectional)
 		(at 232.41 78.74 0)
@@ -4907,6 +4929,17 @@
 		)
 		(uuid "8ae23527-205e-4a55-aa55-743fd5d35592")
 	)
+	(hierarchical_label "T_JCLK{slash}T_SWCLK"
+		(shape input)
+		(at 232.41 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91f46846-5061-4a4b-bcde-e3f5944cfcca")
+	)
 	(hierarchical_label "CSN"
 		(shape output)
 		(at 232.41 124.46 0)
@@ -4917,6 +4950,39 @@
 			(justify left)
 		)
 		(uuid "92d087fc-6639-4bb7-81cc-ec7be2bcc780")
+	)
+	(hierarchical_label "T_NRST"
+		(shape input)
+		(at 232.41 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3504038-cb19-4754-99ac-c780a2ab8b0c")
+	)
+	(hierarchical_label "T_JTDI{slash}NC"
+		(shape input)
+		(at 232.41 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8a8290c-f9d9-4ce5-8d85-506529989527")
+		(property "Netclass" ""
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "SELECT_VDD"
 		(shape output)
@@ -5050,6 +5116,17 @@
 		)
 		(uuid "e811e243-2139-4b90-a15d-30d844d8aa6c")
 	)
+	(hierarchical_label "T_VCP_TX"
+		(shape output)
+		(at 232.41 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e99fe6a5-b99a-4a3e-899f-c4b8e93bec80")
+	)
 	(hierarchical_label "VMEAS_VDRIVE"
 		(shape input)
 		(at 232.41 55.88 0)
@@ -5060,6 +5137,17 @@
 			(justify left)
 		)
 		(uuid "edbe0d32-11e9-49b4-802c-0d41146991db")
+	)
+	(hierarchical_label "T_JTMS{slash}T_SWDIO"
+		(shape bidirectional)
+		(at 232.41 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f36c4cbd-9ecf-4b62-995e-6b3d6146d9f1")
 	)
 	(hierarchical_label "SDA_BATTERY_MANAGEMENT"
 		(shape bidirectional)

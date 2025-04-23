@@ -268,438 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TrashFlash:5223"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at -3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5223"
-				(at -3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "5223:BAT_5223"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "B"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "12.24 mm"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "5223_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy -3.175 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TrashFlash:628"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at -3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "628"
-				(at -3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "628:BAT_628"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "628"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "14.1mm"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "628_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy -3.175 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TrashFlash:BQ24230RGTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2193,410 +1761,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TrashFlash:USB4800-03-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.636 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "USB4800-03-A"
-				(at -8.636 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "USB480003A"
-				(at -4.318 -48.26 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://gct.co/connector/usb4800"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Connectors USB2.0 Type C Rcpt, SMT, Hrz, 3.5mm elevated, 16 Pin"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5.58"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "640-USB4800-03-A"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4800-03-A?qs=vvQtp7zwQdMkfG8vViEZoQ%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "USB4800-03-A"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "USB4800-03-A_1_1"
-				(rectangle
-					(start -8.89 0)
-					(end 8.89 -46.99)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -13.97 -2.54 0)
-					(length 5.08)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -5.08 0)
-					(length 5.08)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -7.62 0)
-					(length 5.08)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -10.16 0)
-					(length 5.08)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -2.54 180)
-					(length 5.08)
-					(name "VBUS_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -5.08 180)
-					(length 5.08)
-					(name "VBUS_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -13.97 180)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -16.51 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -19.05 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -21.59 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -31.75 180)
-					(length 5.08)
-					(name "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -34.29 180)
-					(length 5.08)
-					(name "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -36.83 180)
-					(length 5.08)
-					(name "MH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -39.37 180)
-					(length 5.08)
-					(name "MH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -41.91 180)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -44.45 180)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TrashFlash:VSYS"
 			(power)
 			(pin_numbers
@@ -3325,12 +2489,6 @@
 		(uuid "05d21bf9-c896-46b4-910e-78571c4b9a24")
 	)
 	(junction
-		(at 143.51 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bb5847c-e627-427e-9490-e9283e26d906")
-	)
-	(junction
 		(at 31.75 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3397,30 +2555,6 @@
 		(uuid "68d8fb0c-48d3-42ff-b989-37133ce74e8c")
 	)
 	(junction
-		(at 109.22 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a536399-37fd-4220-b753-43b9e541dfaf")
-	)
-	(junction
-		(at 143.51 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "741f6772-a7af-4705-8c43-54e8d944dfb1")
-	)
-	(junction
-		(at 143.51 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75346089-07d4-4624-b9ec-2ab15419be91")
-	)
-	(junction
-		(at 143.51 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78651ecf-252a-41c1-ac67-3311d80ccb09")
-	)
-	(junction
 		(at 31.75 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3433,22 +2567,10 @@
 		(uuid "7c61a83f-e0e8-4d46-ac50-97a897cbbffc")
 	)
 	(junction
-		(at 106.68 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ece2e8-5ba8-43d7-af9c-5370149a2b85")
-	)
-	(junction
 		(at 236.22 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f47b588-b51d-4f0a-bae2-50dd9062e929")
-	)
-	(junction
-		(at 143.51 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "916ce67d-a3fd-4a4f-808b-b693c8f6499d")
 	)
 	(junction
 		(at 151.13 99.06)
@@ -3469,34 +2591,10 @@
 		(uuid "dcf9f622-8204-4e32-929d-02256f86804a")
 	)
 	(junction
-		(at 143.51 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1b04e62-daa3-4cf8-8b4d-82a0f3285257")
-	)
-	(junction
 		(at 190.5 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3ca9d2-5c1b-4a4e-8677-81075662509c")
-	)
-	(no_connect
-		(at 140.97 142.24)
-		(uuid "991adada-b5b2-4e1b-ada4-6eb94dada483")
-	)
-	(no_connect
-		(at 140.97 144.78)
-		(uuid "f0bb530e-4a45-4964-aad7-3b16311185f5")
-	)
-	(wire
-		(pts
-			(xy 140.97 167.64) (xy 143.51 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01094e14-b7b1-4002-b75f-b0ec3bb96dc7")
 	)
 	(wire
 		(pts
@@ -3560,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 128.27) (xy 143.51 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098e0f06-a310-45f0-9937-af8c232e6062")
-	)
-	(wire
-		(pts
 			(xy 121.92 40.64) (xy 121.92 38.1)
 		)
 		(stroke
@@ -3600,16 +2688,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 124.46) (xy 143.51 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1065e884-ccf2-4a45-91b2-d16807641c0a")
-	)
-	(wire
-		(pts
 			(xy 111.76 40.64) (xy 121.92 40.64)
 		)
 		(stroke
@@ -3617,16 +2695,6 @@
 			(type default)
 		)
 		(uuid "1246b36c-8df4-40df-9b8f-59980e69a28a")
-	)
-	(wire
-		(pts
-			(xy 143.51 160.02) (xy 143.51 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12fb0396-e68d-407d-b007-63b20760084e")
 	)
 	(wire
 		(pts
@@ -3670,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 133.35) (xy 106.68 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a717067-30e6-47cf-bcea-3f43271a7bbf")
-	)
-	(wire
-		(pts
 			(xy 190.5 140.97) (xy 190.5 135.89)
 		)
 		(stroke
@@ -3687,36 +2745,6 @@
 			(type default)
 		)
 		(uuid "22929211-ae6b-4470-a79d-610b092cecf2")
-	)
-	(wire
-		(pts
-			(xy 140.97 128.27) (xy 143.51 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d65c34-27f5-40bf-b0b4-172547aeaf34")
-	)
-	(wire
-		(pts
-			(xy 140.97 125.73) (xy 143.51 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244529d1-ed6a-41c2-b66f-490957c2e3fa")
-	)
-	(wire
-		(pts
-			(xy 143.51 125.73) (xy 203.2 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e71e3e-2d91-480e-b4ea-ccd19fa48b72")
 	)
 	(wire
 		(pts
@@ -3737,16 +2765,6 @@
 			(type default)
 		)
 		(uuid "30c88d36-57b3-406b-9f91-168d3a7bcc61")
-	)
-	(wire
-		(pts
-			(xy 109.22 125.73) (xy 113.03 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32137090-36d1-4b52-9376-57c42b86b361")
 	)
 	(wire
 		(pts
@@ -3777,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "3cc4d8d4-9793-4f24-b996-8a154fe215ef")
-	)
-	(wire
-		(pts
-			(xy 31.75 125.73) (xy 109.22 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422d7f0c-65cb-41a7-9857-449adae6b6a0")
 	)
 	(wire
 		(pts
@@ -3840,16 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 162.56) (xy 143.51 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486b9492-4dd5-4c6e-a767-112c1cf3e4d9")
-	)
-	(wire
-		(pts
 			(xy 60.96 77.47) (xy 66.04 77.47)
 		)
 		(stroke
@@ -3867,16 +2865,6 @@
 			(type default)
 		)
 		(uuid "4a6d8889-07e1-4178-a332-dfd873962c62")
-	)
-	(wire
-		(pts
-			(xy 143.51 165.1) (xy 143.51 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7e279c-cfdb-4515-94a1-d12a23d0265b")
 	)
 	(wire
 		(pts
@@ -3920,26 +2908,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 170.18) (xy 163.83 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6380ca66-c9c9-4a2f-bd27-1036c9ae2cdd")
-	)
-	(wire
-		(pts
-			(xy 143.51 167.64) (xy 143.51 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f43fab-95b4-4c2e-a6ae-389c53dd595f")
-	)
-	(wire
-		(pts
 			(xy 97.79 68.58) (xy 97.79 73.66)
 		)
 		(stroke
@@ -3957,56 +2925,6 @@
 			(type default)
 		)
 		(uuid "7544040a-8126-404b-b9cc-82fc995ab7e7")
-	)
-	(wire
-		(pts
-			(xy 140.97 165.1) (xy 143.51 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78777ab1-cf95-460d-805f-2015ee42c938")
-	)
-	(wire
-		(pts
-			(xy 140.97 139.7) (xy 153.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79550a06-8996-4f81-a1f0-9cc9f75f105d")
-	)
-	(wire
-		(pts
-			(xy 163.83 137.16) (xy 163.83 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a027e1d-c111-419d-a315-0189b01a50da")
-	)
-	(wire
-		(pts
-			(xy 140.97 154.94) (xy 143.51 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0a3af9-7c49-4332-bd3d-1f59a10cb477")
-	)
-	(wire
-		(pts
-			(xy 140.97 137.16) (xy 163.83 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e66efe9-f723-44bb-b620-200ac86fc3e5")
 	)
 	(wire
 		(pts
@@ -4110,16 +3028,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 162.56) (xy 143.51 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dc8d99a-af64-40f7-9265-e3171246651e")
-	)
-	(wire
-		(pts
 			(xy 236.22 133.35) (xy 236.22 140.97)
 		)
 		(stroke
@@ -4137,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "8fd67ac0-e5af-4a9e-8b5b-ae472b5204f6")
-	)
-	(wire
-		(pts
-			(xy 153.67 139.7) (xy 153.67 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926dcd7c-76c7-4ba3-bab6-dae31193ac79")
 	)
 	(wire
 		(pts
@@ -4180,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 130.81) (xy 109.22 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9600f6aa-fa92-4e56-9a35-d301dfb93a34")
-	)
-	(wire
-		(pts
 			(xy 31.75 49.53) (xy 31.75 48.26)
 		)
 		(stroke
@@ -4210,23 +3098,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 128.27) (xy 113.03 128.27)
+			(xy 200.66 125.73) (xy 200.66 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e6ea66b-4c54-43bf-b333-fcca83a05433")
-	)
-	(wire
-		(pts
-			(xy 143.51 157.48) (xy 143.51 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9a9fdf-2f65-4e75-afe4-35eee16de18c")
+		(uuid "a3871d96-a2cf-4678-a3ed-3e410a17dad3")
 	)
 	(wire
 		(pts
@@ -4300,16 +3178,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 133.35) (xy 106.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ebba0e-94c4-41c2-ad08-8bca1160192b")
-	)
-	(wire
-		(pts
 			(xy 31.75 46.99) (xy 31.75 48.26)
 		)
 		(stroke
@@ -4330,13 +3198,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 157.48) (xy 143.51 157.48)
+			(xy 200.66 125.73) (xy 203.2 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb4e820d-8db3-43f0-b12c-8e7405f17b47")
+		(uuid "b8d4aa2a-df63-4965-b332-2f1ad76840c5")
 	)
 	(wire
 		(pts
@@ -4357,26 +3225,6 @@
 			(type default)
 		)
 		(uuid "c3222cf4-3a92-4d19-92f0-babbe2fd149a")
-	)
-	(wire
-		(pts
-			(xy 143.51 154.94) (xy 143.51 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4719a3b-bef1-4671-a934-09822019005a")
-	)
-	(wire
-		(pts
-			(xy 153.67 170.18) (xy 153.67 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48c5a92-c7f2-4a86-985c-63520eeb6277")
 	)
 	(wire
 		(pts
@@ -4437,16 +3285,6 @@
 			(type default)
 		)
 		(uuid "da3a7008-d7b1-4c7a-87c2-0a5436bd60f2")
-	)
-	(wire
-		(pts
-			(xy 109.22 130.81) (xy 109.22 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da5c486c-a6f2-423b-a9f9-7b6354485b2f")
 	)
 	(wire
 		(pts
@@ -4550,16 +3388,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 160.02) (xy 143.51 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0d1432d-6cd1-4477-8e9a-466f15ca4d7b")
-	)
-	(wire
-		(pts
 			(xy 31.75 99.06) (xy 113.03 99.06)
 		)
 		(stroke
@@ -4567,16 +3395,6 @@
 			(type default)
 		)
 		(uuid "f145547d-e188-4e85-b123-09791a2e12c4")
-	)
-	(wire
-		(pts
-			(xy 31.75 128.27) (xy 106.68 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f241fda3-e948-4d62-be9c-51a11d294e6c")
 	)
 	(wire
 		(pts
@@ -4698,16 +3516,6 @@
 		)
 		(uuid "83d86894-9d6f-47a5-97fc-717317c8eca0")
 	)
-	(label "CC1"
-		(at 142.24 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae8f6bbe-05e3-4fa1-8ad6-907991976ead")
-	)
 	(label "COUT"
 		(at 66.04 50.8 0)
 		(effects
@@ -4728,16 +3536,6 @@
 		)
 		(uuid "cfdd834c-75cd-4769-a889-aa6c8de6c74a")
 	)
-	(label "CC2"
-		(at 142.24 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7f29204-9902-4756-ab44-423a81727eca")
-	)
 	(label "VCC_PROT"
 		(at 19.05 48.26 0)
 		(effects
@@ -4747,17 +3545,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef58e391-4216-4d95-befe-bfebb19a2f58")
-	)
-	(hierarchical_label "USB_DN"
-		(shape bidirectional)
-		(at 31.75 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43c16f19-478c-446f-96a8-67e3e5a5b174")
 	)
 	(hierarchical_label "~{CHG}"
 		(shape output)
@@ -4803,17 +3590,6 @@
 		)
 		(uuid "bed036e3-15b2-4f7a-9111-3d2813fc38cb")
 	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 31.75 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7c5c8a5-5ff0-40d9-910d-80caf53599ea")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 31.75 91.44 180)
@@ -4835,72 +3611,6 @@
 			(justify right)
 		)
 		(uuid "e6555906-ff50-4045-b0ac-519026a48255")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a501db5-2efa-4c18-af9e-f5968629ec21")
-		(property "Reference" "#PWR0715"
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e20277-e938-4f0b-9303-32982d77c9a8")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "#PWR0715")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4967,114 +3677,6 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
 					(reference "C703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:5223")
-		(at 39.37 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d123f85-f857-473e-9a06-ce62b1395f92")
-		(property "Reference" "BT2"
-			(at 43.18 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5223"
-			(at 43.18 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TrashFlash:BAT_5223"
-			(at 39.37 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B"
-			(at 39.37 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 39.37 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "12.24 mm"
-			(at 39.37 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P1"
-			(uuid "6dfaba74-56fd-4c25-a03c-2c65ff445dec")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -5555,6 +4157,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 200.66 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42bad019-ae37-49b2-8062-b4de943a924e")
+		(property "Reference" "#PWR0716"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 200.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c971cce-4185-4bba-aae4-52f5bfa776fd")
+		)
+		(instances
+			(project "TrashFlash"
+				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
+					(reference "#PWR0716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 140.97 0)
 		(unit 1)
@@ -5615,283 +4283,6 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
 					(reference "#PWR0712")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:USB4800-03-A")
-		(at 127 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47e18f7e-e062-4012-a1c3-520adff576b4")
-		(property "Reference" "J701"
-			(at 127 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB4800-03-A"
-			(at 127 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "USB480003A"
-			(at 127.508 198.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/connector/usb4800"
-			(at 153.67 318.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Connectors USB2.0 Type C Rcpt, SMT, Hrz, 3.5mm elevated, 16 Pin"
-			(at 127 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5.58"
-			(at 153.67 518.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "640-USB4800-03-A"
-			(at 153.67 618.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4800-03-A?qs=vvQtp7zwQdMkfG8vViEZoQ%3D%3D"
-			(at 153.67 718.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 153.67 818.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB4800-03-A"
-			(at 153.67 918.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "B7"
-			(uuid "30ff05b7-74f1-4f03-a767-847a95ffdbe5")
-		)
-		(pin "MH4"
-			(uuid "d2b8a349-cf63-452b-9e9c-67fc8889df4e")
-		)
-		(pin "MH6"
-			(uuid "a4151ffb-853b-46cd-90a5-fb72db9d0ae9")
-		)
-		(pin "B5"
-			(uuid "d8530d27-5178-46bc-bc6b-75761467022d")
-		)
-		(pin "A4"
-			(uuid "54f77ec2-513a-49b8-8452-14ed41c73719")
-		)
-		(pin "A9"
-			(uuid "ba51f000-d6f5-4ea4-8917-68139272fb7f")
-		)
-		(pin "A7"
-			(uuid "424fdddd-753e-4d0e-8b96-62b21d3d46bc")
-		)
-		(pin "A5"
-			(uuid "6e0f4e56-8787-414a-ad30-b630da9657dd")
-		)
-		(pin "A12"
-			(uuid "8552ffbe-c836-41d1-bba9-b09409025b38")
-		)
-		(pin "MH5"
-			(uuid "5eebb8fd-f84f-4818-93ce-b24313924f69")
-		)
-		(pin "A6"
-			(uuid "30031234-3c44-42c3-af74-cf63abbfe2a5")
-		)
-		(pin "MH3"
-			(uuid "b4a096ef-9b61-4b87-b654-64410bc2fbe8")
-		)
-		(pin "A8"
-			(uuid "2d0b1d4d-07ae-4164-8848-81d18b0ab14a")
-		)
-		(pin "B6"
-			(uuid "3110a657-b4eb-48f9-893b-86b96d5f6c8a")
-		)
-		(pin "B8"
-			(uuid "3050b384-6384-488d-bc42-93e791c3c7a4")
-		)
-		(pin "A1"
-			(uuid "c4f99eec-775b-4d02-80d3-20acfd177976")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "J701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TrashFlash:628")
-		(at 30.48 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48db5b0d-9ea7-40f8-b753-57d0cbc5d350")
-		(property "Reference" "BT1"
-			(at 29.845 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "628"
-			(at 29.845 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TrashFlash:BAT_628"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "628"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Keystone"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "14.1mm"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 30.734 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "N1"
-			(uuid "8dd74828-9c42-4b25-bd07-96108a5ceef0")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -6093,72 +4484,6 @@
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
 					(reference "Q701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "643e2730-d22e-4672-9e97-25903ecbf812")
-		(property "Reference" "#PWR0714"
-			(at 153.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff9d738f-c5cd-4f2c-8702-683dad994fd1")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "#PWR0714")
 					(unit 1)
 				)
 			)
@@ -6400,72 +4725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b62fee0-b8ae-4675-8ae1-c85028ec7951")
-		(property "Reference" "#PWR0713"
-			(at 143.51 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26cba1b-8b08-4231-b77c-0a8679d37e09")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "#PWR0713")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 31.75 38.1 0)
 		(unit 1)
@@ -6592,76 +4851,6 @@
 			(project ""
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
 					(reference "#PWR0701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d956c09-8cc5-473d-801b-511004f623eb")
-		(property "Reference" "R710"
-			(at 166.37 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 166.37 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.052 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 163.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50d27d51-b73c-42e5-95a9-2acdcca337ed")
-		)
-		(pin "1"
-			(uuid "8866a77f-5d82-4926-a71a-3381a3ef13ec")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -7277,76 +5466,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc737a33-dea3-4df1-b419-953bfbb65bee")
-		(property "Reference" "R709"
-			(at 156.21 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 156.21 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 151.892 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84f99124-7519-47cd-bc6d-15c890bc6f12")
-		)
-		(pin "1"
-			(uuid "e1f989a2-3b38-4a2b-b1df-dab06d14d75f")
-		)
-		(instances
-			(project "TrashFlash"
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "R709")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 246.38 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7616,72 +5735,6 @@
 			(project "TrashFlash"
 				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
 					(reference "#PWR0704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 143.51 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5ff9bdb-c9c4-40ae-aa84-349246417dd2")
-		(property "Reference" "#PWR0707"
-			(at 143.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 143.51 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c183f739-ae33-4f83-990b-75e46c43e0d9")
-		)
-		(instances
-			(project ""
-				(path "/256082dc-9c82-41ae-bfb7-0b4bd4121c78/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3"
-					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
