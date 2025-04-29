@@ -2410,6 +2410,12 @@
 		(uuid "24210273-00d2-4f88-aefb-fccaca3bf07c")
 	)
 	(junction
+		(at 281.94 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bda58f9-039b-435d-a671-a070e723bc62")
+	)
+	(junction
 		(at 200.66 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2492,6 +2498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "873d8a98-716f-454b-b03b-20d5e2096572")
+	)
+	(junction
+		(at 281.94 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9988ad12-dec0-43ce-8f0d-bc2dbdeb6d94")
 	)
 	(junction
 		(at 175.26 137.16)
@@ -2583,22 +2595,6 @@
 		(color 0 0 0 0)
 		(uuid "eecc151d-4994-48c8-bd85-89b14390bd51")
 	)
-	(no_connect
-		(at 279.4 46.99)
-		(uuid "09ed3caf-8e2e-482a-93de-e66db4493deb")
-	)
-	(no_connect
-		(at 279.4 35.56)
-		(uuid "baa1f0d3-60a4-48da-8a45-c0aed09c7445")
-	)
-	(no_connect
-		(at 279.4 58.42)
-		(uuid "dbef558d-7a7c-44b8-9f3c-dd9a19d9dbc3")
-	)
-	(no_connect
-		(at 279.4 24.13)
-		(uuid "fb0abec4-25cd-4cd4-a079-2b041818dfae")
-	)
 	(wire
 		(pts
 			(xy 264.16 101.6) (xy 264.16 105.41)
@@ -2668,6 +2664,16 @@
 			(type default)
 		)
 		(uuid "0daecb8d-e25b-40e4-8f56-42f95b4a9399")
+	)
+	(wire
+		(pts
+			(xy 281.94 57.15) (xy 279.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f098c14-6df6-42a1-b333-bc7c6c7060c6")
 	)
 	(wire
 		(pts
@@ -2801,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 57.15) (xy 279.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b557cd8-c4a9-439e-98f6-27a94effa175")
+	)
+	(wire
+		(pts
 			(xy 124.46 210.82) (xy 214.63 210.82)
 		)
 		(stroke
@@ -2878,6 +2894,16 @@
 			(type default)
 		)
 		(uuid "22e84e75-295c-47da-9b0f-855ded289ba7")
+	)
+	(wire
+		(pts
+			(xy 279.4 45.72) (xy 281.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a36de65-65af-4479-a980-c00c6f3adc8a")
 	)
 	(wire
 		(pts
@@ -3201,6 +3227,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 22.86) (xy 281.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645a8fad-f3fe-4d9f-b514-0e49a20060ed")
+	)
+	(wire
+		(pts
 			(xy 162.56 107.95) (xy 180.34 107.95)
 		)
 		(stroke
@@ -3241,6 +3277,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 46.99) (xy 279.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd51af8-ea64-49e9-b74d-a7873fdaf2d4")
+	)
+	(wire
+		(pts
 			(xy 214.63 85.09) (xy 214.63 82.55)
 		)
 		(stroke
@@ -3248,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "6de0ef10-85f7-4b1c-a42d-eea9cda3da99")
+	)
+	(wire
+		(pts
+			(xy 279.4 24.13) (xy 279.4 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0a90a3-4786-41f6-86ba-55c7049fb231")
 	)
 	(wire
 		(pts
@@ -3308,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "86a9daec-8827-460c-bcd4-547974ead1f6")
+	)
+	(wire
+		(pts
+			(xy 279.4 34.29) (xy 281.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889d9374-0711-4094-9141-b0ce163f722b")
 	)
 	(wire
 		(pts
@@ -3428,6 +3494,16 @@
 			(type default)
 		)
 		(uuid "a097ff89-c6c6-490a-beb2-e8a820feaf27")
+	)
+	(wire
+		(pts
+			(xy 281.94 34.29) (xy 281.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44b0ebf-39be-41c1-a337-c8109d5dae48")
 	)
 	(wire
 		(pts
@@ -3651,6 +3727,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 22.86) (xy 281.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a2a366-d148-4fd9-bf34-72f1063dc300")
+	)
+	(wire
+		(pts
 			(xy 203.2 41.91) (xy 214.63 41.91)
 		)
 		(stroke
@@ -3688,6 +3774,16 @@
 			(type default)
 		)
 		(uuid "e3370cde-7b95-423b-bbf1-3325fedd4dcc")
+	)
+	(wire
+		(pts
+			(xy 281.94 45.72) (xy 281.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d8f78e-6039-4e19-9bb3-60829da0616b")
 	)
 	(wire
 		(pts
@@ -3758,6 +3854,16 @@
 			(type default)
 		)
 		(uuid "efd813ba-5a73-4380-bb25-70ba1a4e9a7a")
+	)
+	(wire
+		(pts
+			(xy 279.4 35.56) (xy 279.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe72c95-2008-4608-b6f9-4d042e8e17e2")
 	)
 	(wire
 		(pts
@@ -3978,6 +4084,16 @@
 			(justify left bottom)
 		)
 		(uuid "b5f6abb5-d060-4f2d-a9ac-2549cf47d87e")
+	)
+	(label "LED_TP"
+		(at 281.94 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f32636-3ce4-497d-a04c-dd0cea478960")
 	)
 	(label "TCA_FB_200mA"
 		(at 240.03 152.4 0)
