@@ -4543,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB480003A"
+		(property "Footprint" "TrashFlash:USB480003A"
 			(at 29.718 99.314 0)
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "15230322601000"
+		(property "Footprint" "TrashFlash:15230322601000"
 			(at 168.91 106.68 0)
 			(effects
 				(font
@@ -5581,7 +5581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FTSH-107-XX-YYY-DV-K-A"
+		(property "Footprint" "TrashFlash:FTSH-107-XX-YYY-DV-K-A"
 			(at 53.34 200.33 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "15130322601000"
+		(property "Footprint" "TrashFlash:15130322601000"
 			(at 134.62 106.68 0)
 			(effects
 				(font

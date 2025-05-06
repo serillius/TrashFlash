@@ -190,7 +190,7 @@
 		(layer "F.Fab")
 		(uuid "561b5f99-f2d5-4689-853a-156fc88c7969")
 	)
-	(pad "SH" thru_hole oval
+	(pad "P1" thru_hole oval
 		(at 0 0)
 		(size 4 2)
 		(drill oval 3.2 0.71)

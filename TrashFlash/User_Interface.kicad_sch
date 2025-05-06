@@ -4349,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P400X400X100-33N-D"
+		(property "Footprint" "TrashFlash:QFN40P400X400X100-33N-D"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -5165,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC11S929KS0015"
+		(property "Footprint" "TrashFlash:PEC11S929KS0015"
 			(at 144.526 161.29 0)
 			(effects
 				(font

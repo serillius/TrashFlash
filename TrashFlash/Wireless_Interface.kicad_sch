@@ -3626,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ECS160833B2CTNTR3"
+		(property "Footprint" "TrashFlash:ECS160833B2CTNTR3"
 			(at 146.05 93.98 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ANTC7020X90N"
+		(property "Footprint" "TrashFlash:ANTC7020X90N"
 			(at 289.56 145.72 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-21N-D"
+		(property "Footprint" "TrashFlash:QFN50P400X400X100-21N-D"
 			(at 81.28 126.238 0)
 			(effects
 				(font

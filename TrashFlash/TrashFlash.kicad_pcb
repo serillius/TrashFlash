@@ -6940,7 +6940,7 @@
 			(roundrect_rratio 0.15)
 			(net 264 "Net-(Q701-Pad3)")
 			(pintype "passive")
-			(uuid "700d18d6-b3e9-419d-b932-fc649f532343")
+			(uuid "b695b101-a707-4087-99e7-d52c6a244934")
 		)
 		(pad "4" smd roundrect
 			(at 0.65 -0.925 90)
@@ -6976,7 +6976,7 @@
 			(roundrect_rratio 0.05)
 			(net 264 "Net-(Q701-Pad3)")
 			(pintype "passive")
-			(uuid "be88fc3b-b61e-4594-a734-0f55d15ad301")
+			(uuid "1a2d2886-fad4-4a47-9427-b0d78e472073")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/TrashFlash.pretty/3D/PMDPB30XNAX.stp"
@@ -14050,7 +14050,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "ab287e32-4a4f-441a-abef-d9661f4efc3f")
+			(uuid "d1e345b9-5875-4cd2-a74e-a9aa69ae4d04")
 		)
 		(pad "3" smd rect
 			(at 0.975 0.775)
@@ -19239,7 +19239,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "2417d0de-8862-4444-a032-6b1396cdfedd")
+			(uuid "25498847-9037-4333-8161-6325140add36")
 		)
 		(pad "3" smd rect
 			(at 0.975 0.775)
@@ -19672,6 +19672,291 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "TrashFlash:BAT_628"
+		(layer "F.Cu")
+		(uuid "7e64a942-69e5-483b-bcb3-25c8ec93c3e5")
+		(at 109 150 90)
+		(property "Reference" "BT1"
+			(at -1.905 -5.715 90)
+			(layer "F.SilkS")
+			(uuid "b064f3c0-36fd-4a02-9713-379904820c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "628"
+			(at -0.635 8.89 90)
+			(layer "F.Fab")
+			(uuid "9a9a26b2-cd77-4c20-8922-c1ebf9100288")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cfac530-06f5-44c9-911d-cb554efc6088")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7306fbf7-77c4-4bb3-9f88-629749592f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8558f02a-ec4e-4d48-bd94-d1f43c3aab8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" "628"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74a17381-18c0-4517-8a65-e455e99d112d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "667ea224-06e7-44c7-b3d7-ca09ed261e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "14.1mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51b04d14-adb9-4ed5-b14c-27a5cfc87a9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38d7dcf6-214e-4dac-a1ca-576ded44a8ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3/0cc28835-a3e4-4820-8258-50e4943e40da")
+		(sheetname "/Battery_Management/")
+		(sheetfile "Battery_Management.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.9875 -3.77)
+			(end 2.9875 -3.77)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f46ef901-8c2f-4cce-9db2-6c6bf0edb834")
+		)
+		(fp_line
+			(start 4.825 4.5)
+			(end 4.825 -1.3525)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5decadc1-e456-48f2-9070-fe5ecfe6f1c5")
+		)
+		(fp_line
+			(start 4.825 4.5)
+			(end -4.825 4.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e06dc406-c894-46dc-bfd8-29fbd814008e")
+		)
+		(fp_line
+			(start -4.825 4.5)
+			(end -4.825 -1.3525)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29876a95-89aa-4db4-a193-306b1a40d7f0")
+		)
+		(fp_line
+			(start 6.2125 -4.5775)
+			(end -6.2125 -4.5775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3fd3642e-d854-48bf-9e08-878db35243db")
+		)
+		(fp_line
+			(start -6.2125 -4.5775)
+			(end -6.2125 4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d689386-2841-419c-9e20-7ae5d710e20e")
+		)
+		(fp_line
+			(start 6.2125 4.5)
+			(end 6.2125 -4.5775)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "03622a53-b3b2-4039-871a-3b1b9ae97bc6")
+		)
+		(fp_line
+			(start -6.2125 4.5)
+			(end 6.2125 4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4fc857b-c341-44b2-a80e-cd0c15a2c9cd")
+		)
+		(fp_line
+			(start 4.825 -3.77)
+			(end 4.825 4.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "deff9c45-a1c0-4795-b218-155d86b566da")
+		)
+		(fp_line
+			(start -4.825 -3.77)
+			(end 4.825 -3.77)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "de375154-00ce-4842-b8b1-77f8da4bd92a")
+		)
+		(fp_line
+			(start 4.825 4.5)
+			(end -4.825 4.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98f4e79b-4bc6-4d37-bd49-3877c6f61552")
+		)
+		(fp_line
+			(start -4.825 4.5)
+			(end -4.825 -3.77)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98c3d7d7-b85e-44f4-b876-bed26c801b97")
+		)
+		(pad "N1" thru_hole circle
+			(at -4.635 -3 90)
+			(size 2.655 2.655)
+			(drill 1.77)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "-BATT")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3b5fa4ac-597b-464b-a19b-4d3615d71531")
+		)
+		(pad "N2" thru_hole circle
+			(at 4.635 -3 90)
+			(size 2.655 2.655)
+			(drill 1.77)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "-BATT")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3062b7e0-c87e-496c-941c-f5b80d932ffd")
+		)
+		(pad "N3" thru_hole circle
+			(at 0 0 90)
+			(size 2.655 2.655)
+			(drill 1.77)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "-BATT")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f98cad49-ec0b-4d7c-82b5-c1d1e59bf3e7")
+		)
+		(embedded_fonts no)
+		(model "/home/ruebi/Documents/ZHAW/MSE/TrashFlash/Components/3D/628.stp"
+			(offset
+				(xyz 0.5 1 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
 			)
 		)
 	)
@@ -29824,6 +30109,131 @@
 			)
 		)
 	)
+	(footprint "TrashFlash:CR123A"
+		(layer "F.Cu")
+		(uuid "ca025a21-6c85-4167-bf02-b0dc160b08e0")
+		(at 130 150)
+		(property "Reference" "U1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "796d0269-2603-4f6f-ae8f-bf9df2bdb42e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4ea92308-3eb3-4038-a3ae-71c1ce5e35ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bf3fac9-011b-4b7a-bea9-9a1180a5e3c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3632604-d0da-451e-896d-2f5f2dea6dc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3/b636e8d7-50a6-4286-80c2-1874554b93bd")
+		(sheetname "/Battery_Management/")
+		(sheetfile "Battery_Management.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 10 -2)
+			(end 10 2)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "23490553-4cd5-4fc3-bb47-16bf745e3c39")
+		)
+		(fp_line
+			(start 12 0)
+			(end 8 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70eb0645-a71e-4142-9050-ebc1b3784d43")
+		)
+		(fp_rect
+			(start -17.25 -8.25)
+			(end 17.25 8.25)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "0ef972f5-045e-49bd-a640-c1b61d5a645d")
+		)
+		(fp_rect
+			(start -17.5 -8.5)
+			(end 17.5 8.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a87e44f3-1be4-43d6-8312-174b5211451c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7364c24f-c8cf-4c99-bc12-e472261e1f1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/TrashFlash.pretty/3D/CR123A v4.step"
+			(offset
+				(xyz -17 0 8.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -90 -0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cadcf006-4026-4950-9b04-90d82b45ada9")
@@ -35365,6 +35775,276 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "TrashFlash:BAT_5223"
+		(layer "F.Cu")
+		(uuid "f97b3ca3-a828-4ce0-bb20-64dcc09f0b5b")
+		(at 149 150 -90)
+		(property "Reference" "BT2"
+			(at -2.975 -2.845 90)
+			(layer "F.SilkS")
+			(uuid "6905b68c-0199-438d-9a9b-4aae8ee15238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5223"
+			(at -0.925 3.06 90)
+			(layer "F.Fab")
+			(uuid "95de6db8-6f37-4ba5-b80c-1040866370c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7c7d2e2-e233-47ca-9d63-0462d97be0b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42fab8cf-ac4c-48d5-8713-593f3a06fc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9e7a9db-2eb9-4908-aac6-d76f63b1b71e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5414dea-038e-4ab5-8200-565148d8246c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.24 mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1885131a-eaad-44db-be49-802cc823f58b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a042a99-67a0-4f6c-8142-26280b69efcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/48bd9eb3-181e-486e-b35f-78f4f2bdb3e3/ac6c9aaf-7b9c-4fb9-aa89-50fd64ecf4c8")
+		(sheetname "/Battery_Management/")
+		(sheetfile "Battery_Management.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -5.6 1.195)
+			(end -5.6 -0.255)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "183a419b-105f-475c-bac7-b1639effbf72")
+		)
+		(fp_line
+			(start -1.85 1.195)
+			(end -5.6 1.195)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b6ca791-1915-40b6-bd5c-3cbb09cf97ab")
+		)
+		(fp_line
+			(start 5.6 1.195)
+			(end 1.9 1.195)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0b8fadb-6d81-44c7-8a19-53ab732712ec")
+		)
+		(fp_line
+			(start -5.6 -0.255)
+			(end -2.52 -0.255)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ff275ba-6ee1-406d-bd05-aaea4bb22585")
+		)
+		(fp_line
+			(start 2.52 -0.255)
+			(end 5.6 -0.255)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0621b01f-30b7-4db1-b7bf-cb3668dc2ce5")
+		)
+		(fp_line
+			(start 5.6 -0.255)
+			(end 5.6 1.195)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0231ef13-eaf8-462c-ba54-55926954ed18")
+		)
+		(fp_line
+			(start -5.85 1.445)
+			(end 5.85 1.445)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce80342f-ea6a-4d5a-92bd-68bee5fde1c6")
+		)
+		(fp_line
+			(start 5.85 1.445)
+			(end 5.85 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2ac27cbd-a9b9-4209-bf12-a14c4176ce4b")
+		)
+		(fp_line
+			(start -5.85 -1.25)
+			(end -5.85 1.445)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2802febf-6d03-4193-bbc3-859c002948c4")
+		)
+		(fp_line
+			(start 5.85 -1.25)
+			(end -5.85 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22528963-a933-4ccd-9f29-3349f369e52c")
+		)
+		(fp_line
+			(start -5.6 1.195)
+			(end -5.6 -0.255)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17751264-2c58-4e05-883d-2f69ceaaa4dc")
+		)
+		(fp_line
+			(start 5.6 1.195)
+			(end -5.6 1.195)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1eaee33-6086-4e93-af09-a2a4382cfc37")
+		)
+		(fp_line
+			(start -5.6 -0.255)
+			(end 5.6 -0.255)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7cafadcd-8a06-4717-9345-5d4dc9f2280b")
+		)
+		(fp_line
+			(start 5.6 -0.255)
+			(end 5.6 1.195)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e71748b4-7ee3-4ad9-9dba-0635307bd7c8")
+		)
+		(pad "P1" thru_hole oval
+			(at 0 0 270)
+			(size 4 2)
+			(drill oval 3.2 0.71)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "+BATT")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8d0c9f75-fcb1-404d-85f2-2f8b485927a9")
+		)
+		(embedded_fonts no)
+		(model "/home/ruebi/Documents/ZHAW/MSE/TrashFlash/Components/3D/5223.stp"
+			(offset
+				(xyz 0 0.25 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
